@@ -1,0 +1,1354 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <!-- Document Settings -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- Base Meta -->
+    <!-- dynamically fixing the title for tag/author pages -->
+
+
+
+    <title>All you want to know about Hard Drive Partitions</title>
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Styles'n'Scripts -->
+    <link rel="stylesheet" type="text/css" href="/TechnoTravel-in/assets/built/screen.css" />
+    <link rel="stylesheet" type="text/css" href="/TechnoTravel-in/assets/built/screen.edited.css" />
+    <!-- highlight.js -->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.3.0/styles/default.min.css">
+    <style>.hljs { background: none; }</style>
+
+    <!-- This tag outputs SEO meta+structured data and other important settings -->
+    <meta name="description" content="The daily source of digital inspirations" />
+    <link rel="shortcut icon" href="/TechnoTravel-in/assets/images/favicon.ico" type="image/png" />
+    <link rel="canonical" href="/TechnoTravel-in/all-you-want-to-know-about-hard-drive" />
+    <meta name="referrer" content="no-referrer-when-downgrade" />
+
+     <!--title below is coming from _includes/dynamic_title-->
+    <meta property="og:site_name" content="TechnoTravel.in" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="All you want to know about Hard Drive Partitions" />
+    <meta property="og:description" content="The daily source of digital inspirations" />
+    <meta property="og:url" content="/TechnoTravel-in/all-you-want-to-know-about-hard-drive" />
+    <meta property="og:image" content="/TechnoTravel-in/assets/images/pexels-photo-crop.jpg" />
+    <meta property="article:publisher" content="https://www.facebook.com/rajatpatel92" />
+    <meta property="article:tag" content="Tech Updates" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="All you want to know about Hard Drive Partitions" />
+    <meta name="twitter:description" content="The daily source of digital inspirations" />
+    <meta name="twitter:url" content="/TechnoTravel-in/" />
+    <meta name="twitter:image" content="/TechnoTravel-in/assets/images/pexels-photo-crop.jpg" />
+    <meta name="twitter:label1" content="Written by" />
+    <meta name="twitter:data1" content="TechnoTravel.in" />
+    <meta name="twitter:label2" content="Filed under" />
+    <meta name="twitter:data2" content="Tech Updates" />
+    <meta name="twitter:site" content="@TechnoTravel_in" />
+    <meta name="twitter:creator" content="@TechnoTravel_in" />
+    <meta property="og:image:width" content="2000" />
+    <meta property="og:image:height" content="666" />
+
+    <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Website",
+    "publisher": {
+        "@type": "Organization",
+        "name": "TechnoTravel.in",
+        "logo": "/TechnoTravel-in/"
+    },
+    "url": "/TechnoTravel-in/all-you-want-to-know-about-hard-drive",
+    "image": {
+        "@type": "ImageObject",
+        "url": "/TechnoTravel-in/assets/images/pexels-photo-crop.jpg",
+        "width": 2000,
+        "height": 666
+    },
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "/TechnoTravel-in/all-you-want-to-know-about-hard-drive"
+    },
+    "description": "The daily source of digital inspirations"
+}
+    </script>
+
+    <!-- <script type="text/javascript" src="https://demo.ghost.io/public/ghost-sdk.min.js?v=724281a32e"></script>
+    <script type="text/javascript">
+    ghost.init({
+    	clientId: "ghost-frontend",
+    	clientSecret: "f84a07a72b17"
+    });
+    </script> -->
+
+    <meta name="generator" content="Jekyll 3.6.2" />
+    <link rel="alternate" type="application/rss+xml" title="All you want to know about Hard Drive Partitions" href="/TechnoTravel-in/feed.xml" />
+
+
+</head>
+<body class="post-template">
+
+    <div class="site-wrapper">
+        <!-- All the main content gets inserted here, index.hbs, post.hbs, etc -->
+        <!-- default -->
+
+<!-- The tag above means: insert everything in this file
+into the {body} of the default.hbs template -->
+
+<header class="site-header outer">
+    <div class="inner">
+        <nav class="site-nav">
+    <div class="site-nav-left">
+        
+            
+                <a class="site-nav-logo" href="">TechnoTravel.in</a>
+            
+        
+        
+            <ul class="nav" role="menu">
+    <li class="nav-home" role="menuitem"><a href="/TechnoTravel-in/">Home</a></li>
+    <!-- <li class="nav-getting-started" role="menuitem"><a href="/TechnoTravel-in/tag/getting-started/">Getting Started</a></li> -->
+    <li class="nav-how-to" role="menuitem"><a href="/TechnoTravel-in/tag/how-to/">How-To's</a></li>
+    <li class="nav-geek-tricks" role="menuitem"><a href="/TechnoTravel-in/tag/geek-tricks/">Geek Tricks</a></li>
+    <li class="nav-android" role="menuitem"><a href="/TechnoTravel-in/tag/android/">Android</a></li>
+    <li class="nav-windows" role="menuitem"><a href="/TechnoTravel-in/tag/windows/">Windows</a></li>
+    <li class="nav-downloads" role="menuitem"><a href="/TechnoTravel-in/downloads/">Downloads</a></li>
+    <!-- <li class="nav-try-ghost" role="menuitem"><a href="https://ghost.org">Try Ghost</a></li> -->
+    <li class="nav-about" role="menuitem"><a href="/TechnoTravel-in/about/">About</a></li>
+    <li class="nav-about" role="menuitem"><a href="/TechnoTravel-in/contact-us/">Contact Us</a></li>
+</ul>
+
+        
+    </div>
+    <div class="site-nav-right">
+        <div class="social-links">
+            
+                <a class="social-link social-link-fb" href="https://facebook.com/rajatpatel92" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M19 6h5V0h-5c-3.86 0-7 3.14-7 7v3H8v6h4v16h6V16h5l1-6h-6V7c0-.542.458-1 1-1z"/></svg>
+</a>
+            
+            
+                <a class="social-link social-link-tw" href="https://twitter.com/TechnoTravel_in" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M30.063 7.313c-.813 1.125-1.75 2.125-2.875 2.938v.75c0 1.563-.188 3.125-.688 4.625a15.088 15.088 0 0 1-2.063 4.438c-.875 1.438-2 2.688-3.25 3.813a15.015 15.015 0 0 1-4.625 2.563c-1.813.688-3.75 1-5.75 1-3.25 0-6.188-.875-8.875-2.625.438.063.875.125 1.375.125 2.688 0 5.063-.875 7.188-2.5-1.25 0-2.375-.375-3.375-1.125s-1.688-1.688-2.063-2.875c.438.063.813.125 1.125.125.5 0 1-.063 1.5-.25-1.313-.25-2.438-.938-3.313-1.938a5.673 5.673 0 0 1-1.313-3.688v-.063c.813.438 1.688.688 2.625.688a5.228 5.228 0 0 1-1.875-2c-.5-.875-.688-1.813-.688-2.75 0-1.063.25-2.063.75-2.938 1.438 1.75 3.188 3.188 5.25 4.25s4.313 1.688 6.688 1.813a5.579 5.579 0 0 1 1.5-5.438c1.125-1.125 2.5-1.688 4.125-1.688s3.063.625 4.188 1.813a11.48 11.48 0 0 0 3.688-1.375c-.438 1.375-1.313 2.438-2.563 3.188 1.125-.125 2.188-.438 3.313-.875z"/></svg>
+</a>
+            
+        </div>
+        
+            <a class="subscribe-button" href="#subscribe">Subscribe</a>
+        
+    </div>
+</nav>
+
+    </div>
+</header>
+
+<!-- Everything inside the #post tags pulls data from the post -->
+<!-- #post -->
+
+<main id="site-main" class="site-main outer" role="main">
+    <div class="inner">
+
+        <article class="post-full  no-image">
+
+            <header class="post-full-header">
+                <section class="post-full-meta">
+                    <time class="post-full-meta-date" datetime="11 October 2011">11 October 2011</time>
+                </section>
+                <h1 class="post-full-title">All you want to know about Hard Drive Partitions</h1>
+            </header>
+
+            
+
+            <section class="post-full-content">
+                <div class="kg-card-markdown">
+                    <div dir="ltr" style="text-align: left;" trbidi="on"><div class="separator" style="clear: both; text-align: center;"><a href="http://1.bp.blogspot.com/-KGSOS6dgNPI/TpPX2ZV5IcI/AAAAAAAAARU/W7Q3xlCkjNs/s1600/11-10-2011+11-13-03.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Disk Partitions" border="0" src="http://1.bp.blogspot.com/-KGSOS6dgNPI/TpPX2ZV5IcI/AAAAAAAAARU/W7Q3xlCkjNs/s1600/11-10-2011+11-13-03.png" /></a></div><span class="Apple-style-span" style="background-color: white; line-height: 19px;"><span class="Apple-style-span" style="font-family: Verdana, sans-serif;"><b><br /></b></span></span><br /><span class="Apple-style-span" style="background-color: white; line-height: 19px;"><span class="Apple-style-span" style="font-family: Verdana, sans-serif;"><b>Disk partitioning</b>&nbsp;is the act of dividing a&nbsp;hard disk drive&nbsp;into multiple logical storage units referred to as&nbsp;<i>partitions</i>, to treat one physical disk drive as if it were multiple disks. Partitions are also termed "slices" for operating systems based on&nbsp;BSD,&nbsp;Solaris&nbsp;or&nbsp;GNU Hurd. A&nbsp;partition editor&nbsp;software program can be used to create, resize, delete, and manipulate these partitions on the hard disk.</span></span><br /><span class="Apple-style-span" style="background-color: white; line-height: 19px;"><span class="Apple-style-span" style="font-family: Verdana, sans-serif;"><br /></span></span><br /><span class="Apple-style-span" style="background-color: white;"><span class="Apple-style-span" style="font-family: Verdana, sans-serif;"><span class="Apple-style-span" style="line-height: 19px;">Nowadays, when the hard drive sizes are increasing&nbsp;unbelievably, every user needs to partition the Hard Disk Drive(HDD) into some partitions according to their needs. All those, who don't know about disk partitioning or the particular disk partitioning method, here is a step-by-step guide divided in several parts to make your mind clear about pros and cons about disk partitioning, for what purposes disk partitioning should be implemented, Disk partition strategies and partitioning the drives with and without third party softwares and much more....</span></span></span><br /><span class="Apple-style-span" style="background-color: white;"><span class="Apple-style-span" style="font-family: Verdana, sans-serif;"><span class="Apple-style-span" style="line-height: 19px;"><br /></span></span></span><br /><span class="Apple-style-span" style="background-color: white;"><span class="Apple-style-span" style="font-family: Verdana, sans-serif;"><span class="Apple-style-span" style="line-height: 19px;"><b>What is Disk Partitioning?</b></span></span></span><br /><span class="Apple-style-span" style="background-color: white; line-height: 19px;"><span class="Apple-style-span" style="font-family: Verdana, sans-serif;">Disk partitioning is a method used to divide the external or internal Hard Disk Drives (HDDs), to use a single hard drive as multiple drives. As they are shown as a independent drive on the File explorer of your Operating System, after partitioning. All the leading Operating Systems has the native&nbsp;functionality to partition a hard drive. Partitions can also be created and manipulated easily by Third-party partition manager softwares.</span></span><br /><span class="Apple-style-span" style="background-color: white;"><span class="Apple-style-span" style="font-family: Verdana, sans-serif;"><span class="Apple-style-span" style="line-height: 19px;"><br /></span></span></span><br /><br /><div style="text-align: left;"><span class="Apple-style-span" style="background-color: white;"><span class="Apple-style-span" style="font-family: Verdana, sans-serif;"><span class="Apple-style-span" style="line-height: 24px;"><b>In which cases I need to partition my Hard Drive?</b></span></span></span></div><div style="text-align: left;"><span class="Apple-style-span" style="background-color: white;"><span class="Apple-style-span" style="font-family: Verdana, sans-serif;"><span class="Apple-style-span" style="line-height: 24px;">This is a very common question in a computer user that "Do I really need to partition my Hard Drive?". The answer is "Ask yourself that what you gonna do with this Hard Drive or how you gonna use it."</span></span></span></div><div style="text-align: left;"><span class="Apple-style-span" style="background-color: white;"><span class="Apple-style-span" style="font-family: Verdana, sans-serif;"><span class="Apple-style-span" style="line-height: 24px;"><br /></span></span></span></div><div style="text-align: left;"><span class="Apple-style-span" style="background-color: white;"><span class="Apple-style-span" style="font-family: Verdana, sans-serif;"><span class="Apple-style-span" style="line-height: 24px;">If you are a computer enthusiast and want to have more than one Operating System (OS) on a single computer, in short, if you want to setup a multi-boot system, then you got to partition your hard drive. Though there exist some other ways like Virtual Hard Drive (VHD), Using Virtual Box, etc. But the&nbsp;simplest&nbsp;and the safest as well as the classical way to setup a multi-boot system is to partition a hard drive into several partitions according to your need of storage and number of partitions you want to setup on a system.</span></span></span></div><div style="text-align: left;"><span class="Apple-style-span" style="background-color: white;"><span class="Apple-style-span" style="font-family: Verdana, sans-serif;"><span class="Apple-style-span" style="line-height: 24px;"><br /></span></span></span></div><div style="text-align: left;"><span class="Apple-style-span" style="background-color: white;"><span class="Apple-style-span" style="font-family: Verdana, sans-serif;"><span class="Apple-style-span" style="line-height: 24px;"><b>In which cases I need not to partition my hard drive?</b></span></span></span></div><div style="text-align: left;"><span class="Apple-style-span" style="background-color: white;"><span class="Apple-style-span" style="font-family: Verdana, sans-serif;"><span class="Apple-style-span" style="line-height: 24px;">If you are not a power user or you just don't want to tweaking your system and if you are happy with the single OS setup, then there is no need to partitioning your hard drive. Even if you have purchased the external hard drive mainly for the backup purposes, then don't bother about partitioning it. Just do what you want, as a single partition will be more efficient and&nbsp;convenient for your needs.&nbsp;</span></span></span></div><br /><span class="Apple-style-span" style="background-color: white;"><span class="Apple-style-span" style="font-family: Verdana, sans-serif;"><span class="Apple-style-span" style="line-height: 19px;"><br /></span></span></span><br /><span class="Apple-style-span" style="background-color: white;"><span class="Apple-style-span" style="font-family: Verdana, sans-serif;"><span class="Apple-style-span" style="line-height: 19px;"><b>Benefits of Multiple Partitions</b></span></span></span><br /><span class="Apple-style-span" style="background-color: white; line-height: 24px;"><span class="Apple-style-span" style="font-family: Verdana, sans-serif;">Creating more than one partition has the following advantages:</span></span><br /><span class="Apple-style-span" style="background-color: white; line-height: 19px;"><span class="Apple-style-span" style="font-family: Verdana, sans-serif;"></span></span><br /><ul style="line-height: 1.5em; list-style-type: square; margin-bottom: 0.5em; margin-left: 1.5em; margin-right: 0px; margin-top: 0.3em; padding-bottom: 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px;"><li style="margin-bottom: 0.1em;"><span class="Apple-style-span" style="font-family: Verdana, sans-serif;">Separation of the&nbsp;operating system&nbsp;(OS) and program files from user files. This allows&nbsp;image&nbsp;backups&nbsp;(or&nbsp;clones) to be made of only the operating system and installed software.</span></li><li style="margin-bottom: 0.1em;"><span class="Apple-style-span" style="font-family: Verdana, sans-serif;">Having a separate area for operating system&nbsp;virtual memory&nbsp;swapping/paging.</span></li><li style="margin-bottom: 0.1em;"><span class="Apple-style-span" style="font-family: Verdana, sans-serif;">Keeping frequently used programs and data near each other.</span></li><li style="margin-bottom: 0.1em;"><span class="Apple-style-span" style="font-family: Verdana, sans-serif;">Having cache and log files separate from other files. These can change size dynamically and rapidly, potentially making a file system full.</span></li><li style="margin-bottom: 0.1em;"><span class="Apple-style-span" style="font-family: Verdana, sans-serif;">Use of&nbsp;multi-boot&nbsp;setups, which allow users to have more than one operating system on a single computer. For example, one could install&nbsp;Linux,&nbsp;BSD, Mac OS X, Microsoft Windows or other operating systems on different partitions of the same hard disk and have a choice of booting into any compatible operating system at power-up.</span></li><li style="margin-bottom: 0.1em;"><span class="Apple-style-span" style="font-family: Verdana, sans-serif;">Protecting or isolating files, to make it easier to recover a corrupted file system or operating system installation. If one partition is corrupted, other file systems may not be affected.</span></li></ul><ul style="line-height: 1.5em; list-style-type: square; margin-bottom: 0.5em; margin-left: 1.5em; margin-right: 0px; margin-top: 0.3em; padding-bottom: 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px;"><li style="margin-bottom: 0.1em;"><span class="Apple-style-span" style="font-family: Verdana, sans-serif;">Raising overall computer performance on systems where smaller file systems are more efficient. For instance, large hard drives with only one&nbsp;NTFS&nbsp;file system typically have a very largesequentially accessed&nbsp;Master File Table&nbsp;(MFT) and it generally takes more time to read this MFT than the smaller MFTs of smaller partitions.</span></li><li style="margin-bottom: 0.1em;"><span class="Apple-style-span" style="font-family: Verdana, sans-serif;">"Short Stroking", which aims to minimize performance-eating head repositioning delays by reducing the number of tracks used per hard drive.&nbsp;The basic idea is that you make one partition approx. 20-25% of the total size of the drive. This partition is expected to: occupy the outer tracks of the hard drive, and offer more than double the throughput — less than half the access time. If you limit capacity with short stroking, the minimum throughput stays much closer to the maximum. This technique, however, is not related to creating multiple partitions, but generally just creating a partition lesser size than available on the disk.</span></li></ul><dl style="margin-bottom: 0.5em; margin-top: 0.2em;"><dd style="line-height: 1.5em; margin-bottom: 0.1em; margin-left: 1.6em;"><ul style="line-height: 1.5em; list-style-type: square; margin-bottom: 0.5em; margin-left: 1.5em; margin-right: 0px; margin-top: 0.3em; padding-bottom: 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px;"><li style="margin-bottom: 0.1em;"><span class="Apple-style-span" style="font-family: Verdana, sans-serif;">For example a 1 TB disk might have an access time of 12 ms at 200&nbsp;IOPS&nbsp;(at a limited queue depth) with an average throughput of 100 MB/s. When it is partitioned to 100 GB (and the rest left unallocated) you&nbsp;<i><b>might</b></i>&nbsp;end up with an access time of 6 ms at 300 IOPS (with a bigger queue depth) with an average throughput of 200 MB/s.</span></li></ul></dd></dl><br /><span class="Apple-style-span" style="background-color: white;"><span class="Apple-style-span" style="font-family: Verdana, sans-serif;"><span class="Apple-style-span" style="line-height: 19px;"><br /></span></span></span><br /><span class="Apple-style-span" style="background-color: white;"><span class="Apple-style-span" style="font-family: Verdana, sans-serif;"><span class="Apple-style-span" style="line-height: 19px;"><b>Disadvantages of multiple partitions</b></span></span></span><br /><span class="Apple-style-span" style="background-color: white; line-height: 24px;"><span class="Apple-style-span" style="font-family: Verdana, sans-serif;">Creating more than one partition has the following disadvantages, as compared to having a single partition spanning the same disk area:</span></span><br /><div style="text-align: left;"><span class="Apple-style-span" style="background-color: white;"><span class="Apple-style-span" style="font-family: Verdana, sans-serif;"></span></span></div><ul style="list-style-type: square; margin-bottom: 0.5em; margin-left: 1.5em; margin-right: 0px; margin-top: 0.3em; padding-bottom: 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px;"><li style="line-height: 1.5em; margin-bottom: 0.1em;"><span class="Apple-style-span" style="font-family: Verdana, sans-serif;">Reduces the total space available for user storage on the disk, as it forces the operating system to duplicate certain file system administration areas on the disk for each partition.</span></li><li style="margin-bottom: 0.1em;"><span class="Apple-style-span" style="font-family: Verdana, sans-serif;"><span class="Apple-style-span" style="line-height: 1.5em;">Reduces overall disk performance on systems where data is accessed regularly and in parallel on multiple partitions, because it forces the disk's read/write head to move back and forth on the disk to access data on each partition</span><span class="Apple-style-span" style="line-height: 13px;">&nbsp;</span><span class="Apple-style-span" style="line-height: 1.5em;">and to maintain and update file system administration areas on each partition. It also prevents disk optimizers from moving all frequently accessed files closer to each other on the disk, which could reduce the number and distance of required head movements. Files can still be moved closer to each other on each partition, but those areas themselves will still be far apart on the disk. (See "short stroking" considerations above.) This issue does not apply to SSD drives as access times on those isn't affected by and dependant on relative sector positions.</span></span></li><li style="line-height: 1.5em; margin-bottom: 0.1em;"><span class="Apple-style-span" style="font-family: Verdana, sans-serif;">Increases disk fragmentation because it lowers the average size of continuous free blocks on each partition - as compared to a single partition of the same overall size - after the same amount of data has been written to them.</span></li><li style="line-height: 1.5em; margin-bottom: 0.1em;"><span class="Apple-style-span" style="font-family: Verdana, sans-serif;">May prevent using the whole disk capacity, because it may break free capacities apart. For example, if you have a disk with two partitions, each with 3 GBs free (hence 6GBs in total), you can't copy a 4GB DVD image file on that disk, because none of the partitions will actually provide enough space for that - even though you have more than enough free capacity in total on the disk. If the same files on those two partitions would have been stored on a single partition spanning the whole disk, then the 4GB file could be easily stored in the 6GB of free space.</span></li><li style="line-height: 1.5em; margin-bottom: 0.1em;"><span class="Apple-style-span" style="font-family: Verdana, sans-serif;">Slows down moving data between different parts of the same physical disk. When moving data from one partition to other, the operating system actually has to copy the contents of the data file, even though it still remains on the same device in a single copy/instance. When using a single partition, moving data between directories will only require altering the file system administration areas, and the actual contents of the file will not be copied or moved inside the disk/device, thus resulting in an indefinitely faster completion of the operation.</span></li><li style="line-height: 1.5em; margin-bottom: 0.1em;"><span class="Apple-style-span" style="font-family: Verdana, sans-serif;">Hurts portability and might impose constraints on how entities might be linked together inside the file system. For ex. the NTFS file system allows&nbsp;hard links&nbsp;to be created only as long as both the link and the referenced file reside inside the same volume/partition. Also under Windows if you're referencing a file on another partition, you can do that only by specifying the partition's assigned drive letter - which, however, might change with time and depending on the drives installed. This renders references invalid and dependent on actual drive letter assignment, which is not an issue if you have to reference files/directories only on the same partition, as in this case you can use directory-relative or root-relative references, without including the drive/partition letter.<br /></span></li></ul><span class="Apple-style-span" style="font-family: Verdana, sans-serif;"><span class="Apple-style-span" style="line-height: 24px;"><div style="text-align: left;"><span class="Apple-style-span" style="background-color: white;"><span class="Apple-style-span" style="font-family: Verdana, sans-serif;"><span class="Apple-style-span" style="line-height: 24px;"><br /></span></span></span></div>After reading this article, if you have decided to partition your hard drive, then you may need some assistance on how to partition a hard drive and what are the sizes of the partitions you should keep to match all of your needs (Multi-needs, I should say!). Don't worry, here is the help you may need.</span></span><br /><div style="text-align: left;"><span class="Apple-style-span" style="background-color: white;"><span class="Apple-style-span" style="font-family: Verdana, sans-serif;"><span class="Apple-style-span" style="line-height: 24px;"><br /></span></span></span></div><div style="text-align: left;"><span class="Apple-style-span" style="font-family: Verdana, sans-serif;"><span class="Apple-style-span" style="line-height: 24px;"><a href="http://www.technotravel.in/2011/10/how-to-determine-sizes-of-partitions-of.html">How to determine the sizes of the partitions of Hard Drive [Partitioning Strategy]</a></span></span></div><div style="text-align: left;"><span class="Apple-style-span" style="background-color: white;"><span class="Apple-style-span" style="font-family: Verdana, sans-serif;"><span class="Apple-style-span" style="line-height: 24px;"><br /></span></span></span></div><div style="text-align: left;"><span class="Apple-style-span" style="font-family: Verdana, sans-serif;"><span class="Apple-style-span" style="line-height: 24px;"><a href="http://www.technotravel.in/2011/10/how-to-partition-hard-disk-drive-in.html">[How-To] Partition a Hard Disk Drive in Windows without any software</a></span></span></div><div style="text-align: left;"><span class="Apple-style-span" style="font-family: Verdana, sans-serif;"><span class="Apple-style-span" style="line-height: 24px;"><br /></span></span></div><div style="text-align: left;"><span class="Apple-style-span" style="font-family: Verdana, sans-serif;"><span class="Apple-style-span" style="line-height: 24px;"><a href="http://www.technotravel.in/2011/10/easeus-partition-master-is-great-free.html">EASEUS Partition Master is a great free to use Disk Partitioning Utility</a></span></span></div><div style="text-align: left;"><span class="Apple-style-span" style="background-color: white;"><span class="Apple-style-span" style="font-family: Verdana, sans-serif;"><span class="Apple-style-span" style="line-height: 24px;"><br /></span></span></span></div><div style="text-align: left;"><span class="Apple-style-span" style="background-color: white;"><span class="Apple-style-span" style="font-family: Verdana, sans-serif;"><span class="Apple-style-span" style="line-height: 24px;"><br /></span></span></span></div></div>
+                </div>
+            </section>
+            <!-- <section class="post-full-meta">
+                
+                <span class="date-divider">/</span>
+                
+                        
+                            <a href='/TechnoTravel-in/tag/tech-updates/'>TECH UPDATES</a>,
+                        
+                        &nbsp;
+                    
+                        
+                            <a href='/TechnoTravel-in/tag/software/'>SOFTWARE</a>,
+                        
+                        &nbsp;
+                    
+                        
+                            <a href='/TechnoTravel-in/tag/windows/'>WINDOWS</a>,
+                        
+                        &nbsp;
+                    
+                        
+                            <a href='/TechnoTravel-in/tag/miscellaneous/'>MISCELLANEOUS</a>,
+                        
+                        &nbsp;
+                    
+                        
+                            <a href='/TechnoTravel-in/tag/how-to/'>HOW-TO</a>,
+                        
+                        &nbsp;
+                    
+                        
+                            <a href='/TechnoTravel-in/tag/android/'>ANDROID</a>,
+                        
+                        &nbsp;
+                    
+                        
+                            <a href='/TechnoTravel-in/tag/technology/'>TECHNOLOGY</a>,
+                        
+                        &nbsp;
+                    
+                        
+                            <a href='/TechnoTravel-in/tag/geek-tricks/'>GEEK TRICKS</a>,
+                        
+                        &nbsp;
+                    
+                        
+                            <a href='/TechnoTravel-in/tag/ios/'>IOS</a>,
+                        
+                        &nbsp;
+                    
+                        
+                            <a href='/TechnoTravel-in/tag/apple/'>APPLE</a>,
+                        
+                        &nbsp;
+                    
+                        
+                            <a href='/TechnoTravel-in/tag/pc-news/'>PC NEWS</a>,
+                        
+                        &nbsp;
+                    
+                        
+                            <a href='/TechnoTravel-in/tag/os/'>OS</a>
+                        
+                        &nbsp;
+                    
+                
+            </section> -->
+
+            <!-- Email subscribe form at the bottom of the page -->
+            
+                <section class="subscribe-form">
+                    <h3 class="subscribe-form-title">Subscribe to TechnoTravel.in</h3>
+                    <p>Get the latest posts delivered right to your inbox</p>
+                    <form method="post" action="/subscribe/" class="">
+    <input class="confirm" type="hidden" name="confirm"  /><input class="location" type="hidden" name="location"  /><input class="referrer" type="hidden" name="referrer"  />
+
+    <div class="form-group">
+        <input class="subscribe-email" type="email" name="email"  placeholder="youremail@example.com" />
+    </div>
+    <button class="" type="submit" disabled><span>Subscribe</span></button>
+    <script type="text/javascript">(function(g,h,o,s,t){h[o]('.location')[s]=h[o]('.location')[s] || g.location.href;h[o]('.referrer')[s]=h[o]('.referrer')[s] || h.referrer;})(window,document,'querySelector','value');</script>
+</form>
+
+                </section>
+            
+
+            <footer class="post-full-footer">
+                <!-- Everything inside the #author tags pulls data from the author -->
+                <!-- #author-->
+                
+                    
+                        <section class="author-card">
+                            
+                                <img class="author-profile-image" src="/TechnoTravel-in/assets/images/rajat.jpg" alt="Rajat Patel" />
+                            
+                            <section class="author-card-content">
+                                <h4 class="author-card-name"><a href="/TechnoTravel-in/author/Rajat Patel">Rajat Patel</a></h4>
+                                
+                                    <p>Founder at TechnoTravel.in. Software Engineer & Business Analyst by profession. Avid open source evangelist. Mostly writes about Technology that interests him, and some neat tricks to make your day-to-day tech life a breeze.</p>
+                                
+                            </section>
+                        </section>
+                        <div class="post-full-footer-right">
+                            <a class="author-card-button" href="/TechnoTravel-in/author/rajat">Read More</a>
+                        </div>
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                <!-- /author  -->
+            </footer>
+
+            <!-- If you use Disqus comments, just uncomment this block.
+            The only thing you need to change is "test-apkdzgmqhj" - which
+            should be replaced with your own Disqus site-id. -->
+            
+                <section class="post-full-comments">
+                    <div id="disqus_thread"></div>
+                    <script>
+                        var disqus_config = function () {
+                            this.page.url = '/TechnoTravel-in/';
+                            this.page.identifier = 'TechnoTravel.in';
+                        };
+                        (function() {
+                            var d = document, s = d.createElement('script');
+                            s.src = 'https://technotravelin.disqus.com/embed.js';
+                            s.setAttribute('data-timestamp', +new Date());
+                            (d.head || d.body).appendChild(s);
+                        })();
+                    </script>
+                </section>
+            
+
+        </article>
+
+    </div>
+</main>
+
+<!-- Links to Previous/Next posts -->
+<aside class="read-next outer">
+    <div class="inner">
+        <div class="read-next-feed">
+            
+                
+                
+                
+                
+                    <article class="read-next-card"
+                        
+                            style="background-image: url(/TechnoTravel-in/assets/images/pexels-photo-crop.jpg)"
+                        
+                    >
+                        <header class="read-next-card-header">
+                            <small class="read-next-card-header-sitetitle">&mdash; TechnoTravel.in &mdash;</small>
+                            
+                                <h3 class="read-next-card-header-title"><a href="/TechnoTravel-in/tag/tech-updates/">Tech updates</a></h3>
+                            
+                        </header>
+                        <div class="read-next-divider"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 14.5s2 3 5 3 5.5-2.463 5.5-5.5S21 6.5 18 6.5c-5 0-7 11-12 11C2.962 17.5.5 15.037.5 12S3 6.5 6 6.5s4.5 3.5 4.5 3.5"/></svg>
+</div>
+                        <div class="read-next-card-content">
+                            <ul>
+                                
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                            <li><a href="/TechnoTravel-in/remotely-flash-files-onto-your-android">Remotely Flash Files onto Your Android via RemoteFlash [App]</a></li>
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                            <li><a href="/TechnoTravel-in/how-to-add-command-prompt-here-menu-in-folder-right-click-menu">How To Add "Command Prompt Here" Menu In Folder Right Click Menu</a></li>
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                            <li><a href="/TechnoTravel-in/task-killers-are-bad-for-android-here-is-the-reason-why-you-shoudnt-use-them">Task Killers Are Bad For Android. Here Is The Reason Why You Shouldn't Use Them</a></li>
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                            </ul>
+                        </div>
+                        <footer class="read-next-card-footer">
+                            <a href="/TechnoTravel-in/tag/tech-updates/">
+                                
+                                    See all 87 posts  →
+                                
+                            </a>
+                        </footer>
+                    </article>
+                
+            
+
+            <!-- If there's a next post, display it using the same markup included from - partials/post-card.hbs -->
+            
+                
+    <article class="post-card post-template no-image">
+        
+        <div class="post-card-content">
+            <a class="post-card-content-link" href="/TechnoTravel-in/awesome-windows-tricks-to-prank-your">
+                <header class="post-card-header">
+                    
+                        
+                            
+                               <span class="post-card-tags">Geek tricks</span>
+                            
+                            
+                    
+
+                    <h2 class="post-card-title">Awesome Windows Tricks to Prank Your Friend!</h2>
+                </header>
+                <section class="post-card-excerpt">
+                    <p>Pranks are always loved, until you are at the receiving end! So, it's time to prank your friend using some very easy yet effective geeky stuff, which, I'm sure you would love to</p>
+                </section>
+            </a>
+            <footer class="post-card-meta">
+                
+                    
+                        
+                        <img class="author-profile-image" src="/TechnoTravel-in/assets/images/rajat.jpg" alt="Rajat Patel" />
+                        
+                        <span class="post-card-author">
+                            <a href="/TechnoTravel-in/author/rajat/">Rajat Patel</a>
+                        </span>
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+            </footer>
+        </div>
+    </article>
+
+            
+
+            <!-- If there's a previous post, display it using the same markup included from - partials/post-card.hbs -->
+            
+                
+    <article class="post-card post-template no-image">
+        
+        <div class="post-card-content">
+            <a class="post-card-content-link" href="/TechnoTravel-in/how-to-determine-sizes-of-partitions-of">
+                <header class="post-card-header">
+                    
+                        
+                            
+                               <span class="post-card-tags">Tech updates</span>
+                            
+                            
+                    
+
+                    <h2 class="post-card-title">How to determine the sizes of the partitions of Hard Drive [Partitioning Strategy]</h2>
+                </header>
+                <section class="post-card-excerpt">
+                    <p>If you have finally decided to partition your hard drive into several partitions after reading&nbsp;All you want to know about Hard Drive Partitions, then you are at the right place.&nbsp;After deciding to partition</p>
+                </section>
+            </a>
+            <footer class="post-card-meta">
+                
+                    
+                        
+                        <img class="author-profile-image" src="/TechnoTravel-in/assets/images/rajat.jpg" alt="Rajat Patel" />
+                        
+                        <span class="post-card-author">
+                            <a href="/TechnoTravel-in/author/rajat/">Rajat Patel</a>
+                        </span>
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+            </footer>
+        </div>
+    </article>
+
+            
+
+        </div>
+    </div>
+</aside>
+
+<!-- Floating header which appears on-scroll, included from includes/floating-header.hbs -->
+<div class="floating-header">
+    <div class="floating-header-logo">
+        <a href="/TechnoTravel-in/">
+            
+                <img src="/TechnoTravel-in/assets/images/favicon.ico" alt="TechnoTravel.in icon" />
+            
+            <span>TechnoTravel.in</span>
+        </a>
+    </div>
+    <span class="floating-header-divider">&mdash;</span>
+    <div class="floating-header-title">All you want to know about Hard Drive Partitions</div>
+    <div class="floating-header-share">
+        <div class="floating-header-share-label">Share this <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+    <path d="M7.5 15.5V4a1.5 1.5 0 1 1 3 0v4.5h2a1 1 0 0 1 1 1h2a1 1 0 0 1 1 1H18a1.5 1.5 0 0 1 1.5 1.5v3.099c0 .929-.13 1.854-.385 2.748L17.5 23.5h-9c-1.5-2-5.417-8.673-5.417-8.673a1.2 1.2 0 0 1 1.76-1.605L7.5 15.5zm6-6v2m-3-3.5v3.5m6-1v2"/>
+</svg>
+</div>
+        <a class="floating-header-share-tw" href="https://twitter.com/share?text=All+you+want+to+know+about+Hard+Drive+Partitions&amp;url=https://rajatpatel92.github.io/TechnoTravel-in/all-you-want-to-know-about-hard-drive"
+            onclick="window.open(this.href, 'share-twitter', 'width=550,height=235');return false;">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M30.063 7.313c-.813 1.125-1.75 2.125-2.875 2.938v.75c0 1.563-.188 3.125-.688 4.625a15.088 15.088 0 0 1-2.063 4.438c-.875 1.438-2 2.688-3.25 3.813a15.015 15.015 0 0 1-4.625 2.563c-1.813.688-3.75 1-5.75 1-3.25 0-6.188-.875-8.875-2.625.438.063.875.125 1.375.125 2.688 0 5.063-.875 7.188-2.5-1.25 0-2.375-.375-3.375-1.125s-1.688-1.688-2.063-2.875c.438.063.813.125 1.125.125.5 0 1-.063 1.5-.25-1.313-.25-2.438-.938-3.313-1.938a5.673 5.673 0 0 1-1.313-3.688v-.063c.813.438 1.688.688 2.625.688a5.228 5.228 0 0 1-1.875-2c-.5-.875-.688-1.813-.688-2.75 0-1.063.25-2.063.75-2.938 1.438 1.75 3.188 3.188 5.25 4.25s4.313 1.688 6.688 1.813a5.579 5.579 0 0 1 1.5-5.438c1.125-1.125 2.5-1.688 4.125-1.688s3.063.625 4.188 1.813a11.48 11.48 0 0 0 3.688-1.375c-.438 1.375-1.313 2.438-2.563 3.188 1.125-.125 2.188-.438 3.313-.875z"/></svg>
+
+        </a>
+        <a class="floating-header-share-fb" href="https://www.facebook.com/sharer/sharer.php?u=https://rajatpatel92.github.io/TechnoTravel-in/all-you-want-to-know-about-hard-drive"
+            onclick="window.open(this.href, 'share-facebook','width=580,height=296');return false;">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M19 6h5V0h-5c-3.86 0-7 3.14-7 7v3H8v6h4v16h6V16h5l1-6h-6V7c0-.542.458-1 1-1z"/></svg>
+
+        </a>
+    </div>
+    <progress class="progress" value="0">
+        <div class="progress-container">
+            <span class="progress-bar"></span>
+        </div>
+    </progress>
+</div>
+
+
+<!-- /post -->
+
+<!-- The #contentFor helper here will send everything inside it up to the matching #block helper found in default.hbs -->
+
+
+        <!-- Previous/next page links - displayed on every page -->
+        
+
+        <!-- The footer at the very bottom of the screen -->
+        <footer class="site-footer outer">
+            <div class="site-footer-content inner">
+                <section class="copyright"><a href="/TechnoTravel-in/">TechnoTravel.in</a> &copy; 2018</section>
+                <section class="poweredby">Proudly published with <a href="https://jekyllrb.com/">Jekyll</a> &
+                    <a href="https://pages.github.com/">GitHub Pages</a> using
+                    <a href="https://github.com/myJekyll/jasper2">Jasper2</a></section>
+                <nav class="site-footer-nav">
+                    <a href="/TechnoTravel-in/">Latest Posts</a>
+                    <a href="https://facebook.com/rajatpatel92" target="_blank" rel="noopener">Facebook</a>
+                    <a href="https://twitter.com/TechnoTravel_in" target="_blank" rel="noopener">Twitter</a>
+                    <a href="https://ghost.org" target="_blank" rel="noopener">Ghost</a>
+                </nav>
+            </div>
+        </footer>
+
+    </div>
+
+    <!-- The big email subscribe modal content -->
+    
+        <div id="subscribe" class="subscribe-overlay">
+            <a class="subscribe-overlay-close" href="#"></a>
+            <div class="subscribe-overlay-content">
+                
+                <h1 class="subscribe-overlay-title">Subscribe to TechnoTravel.in</h1>
+                <p class="subscribe-overlay-description">Stay up to date! Get all the latest &amp; greatest posts delivered straight to your inbox</p>
+                <form method="post" action="/subscribe/" class="">
+    <input class="confirm" type="hidden" name="confirm"  /><input class="location" type="hidden" name="location"  /><input class="referrer" type="hidden" name="referrer"  />
+
+    <div class="form-group">
+        <input class="subscribe-email" type="email" name="email"  placeholder="youremail@example.com" />
+    </div>
+    <button class="" type="submit" disabled><span>Subscribe</span></button>
+    <script type="text/javascript">(function(g,h,o,s,t){h[o]('.location')[s]=h[o]('.location')[s] || g.location.href;h[o]('.referrer')[s]=h[o]('.referrer')[s] || h.referrer;})(window,document,'querySelector','value');</script>
+</form>
+
+            </div>
+        </div>
+    
+
+    <!-- highlight.js -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+
+    <!-- jQuery + Fitvids, which makes all video embeds responsive -->
+    <script
+        src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous">
+    </script>
+    <script type="text/javascript" src="/TechnoTravel-in/assets/js/jquery.fitvids.js"></script>
+    <script type="text/javascript" src="https://demo.ghost.io/assets/js/jquery.fitvids.js?v=724281a32e"></script>
+
+
+    <!-- Paginator increased to "infinit" in _config.yml -->
+    <!-- if paginator.posts  -->
+    <!-- <script>
+        var maxPages = parseInt('');
+    </script>
+    <script src="/TechnoTravel-in/assets/js/infinitescroll.js"></script> -->
+    <!-- /endif -->
+
+    
+
+
+    <!-- Add Google Analytics  -->
+    <!-- Google Analytics Tracking code -->
+ <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', '', 'auto');
+  ga('send', 'pageview');
+
+ </script>
+
+
+    <!-- The #block helper will pull in data from the #contentFor other template files. In this case, there's some JavaScript which we only want to use in post.hbs, but it needs to be included down here, after jQuery has already loaded. -->
+    
+        <script>
+
+// NOTE: Scroll performance is poor in Safari
+// - this appears to be due to the events firing much more slowly in Safari.
+//   Dropping the scroll event and using only a raf loop results in smoother
+//   scrolling but continuous processing even when not scrolling
+$(document).ready(function () {
+    // Start fitVids
+    var $postContent = $(".post-full-content");
+    $postContent.fitVids();
+    // End fitVids
+
+    var progressBar = document.querySelector('progress');
+    var header = document.querySelector('.floating-header');
+    var title = document.querySelector('.post-full-title');
+
+    var lastScrollY = window.scrollY;
+    var lastWindowHeight = window.innerHeight;
+    var lastDocumentHeight = $(document).height();
+    var ticking = false;
+
+    function onScroll() {
+        lastScrollY = window.scrollY;
+        requestTick();
+    }
+
+    function onResize() {
+        lastWindowHeight = window.innerHeight;
+        lastDocumentHeight = $(document).height();
+        requestTick();
+    }
+
+    function requestTick() {
+        if (!ticking) {
+            requestAnimationFrame(update);
+        }
+        ticking = true;
+    }
+
+    function update() {
+        var trigger = title.getBoundingClientRect().top + window.scrollY;
+        var triggerOffset = title.offsetHeight + 35;
+        var progressMax = lastDocumentHeight - lastWindowHeight;
+
+        // show/hide floating header
+        if (lastScrollY >= trigger + triggerOffset) {
+            header.classList.add('floating-active');
+        } else {
+            header.classList.remove('floating-active');
+        }
+
+        progressBar.setAttribute('max', progressMax);
+        progressBar.setAttribute('value', lastScrollY);
+
+        ticking = false;
+    }
+
+    window.addEventListener('scroll', onScroll, {passive: true});
+    window.addEventListener('resize', onResize, false);
+
+    update();
+});
+</script>
+
+    
+
+    <!-- Ghost outputs important scripts and data with this tag - it should always be the very last thing before the closing body tag -->
+    <!-- ghost_foot -->
+
+</body>
+</html>

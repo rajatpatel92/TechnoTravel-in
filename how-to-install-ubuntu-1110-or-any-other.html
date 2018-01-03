@@ -1,0 +1,1194 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <!-- Document Settings -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- Base Meta -->
+    <!-- dynamically fixing the title for tag/author pages -->
+
+
+
+    <title>How To Install Ubuntu 11.10 Or Any Other Operating System On Virtual Box</title>
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Styles'n'Scripts -->
+    <link rel="stylesheet" type="text/css" href="/TechnoTravel-in/assets/built/screen.css" />
+    <link rel="stylesheet" type="text/css" href="/TechnoTravel-in/assets/built/screen.edited.css" />
+    <!-- highlight.js -->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.3.0/styles/default.min.css">
+    <style>.hljs { background: none; }</style>
+
+    <!-- This tag outputs SEO meta+structured data and other important settings -->
+    <meta name="description" content="The daily source of digital inspirations" />
+    <link rel="shortcut icon" href="/TechnoTravel-in/assets/images/favicon.ico" type="image/png" />
+    <link rel="canonical" href="/TechnoTravel-in/how-to-install-ubuntu-1110-or-any-other" />
+    <meta name="referrer" content="no-referrer-when-downgrade" />
+
+     <!--title below is coming from _includes/dynamic_title-->
+    <meta property="og:site_name" content="TechnoTravel.in" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="How To Install Ubuntu 11.10 Or Any Other Operating System On Virtual Box" />
+    <meta property="og:description" content="The daily source of digital inspirations" />
+    <meta property="og:url" content="/TechnoTravel-in/how-to-install-ubuntu-1110-or-any-other" />
+    <meta property="og:image" content="/TechnoTravel-in/assets/images/pexels-photo-crop.jpg" />
+    <meta property="article:publisher" content="https://www.facebook.com/rajatpatel92" />
+    <meta property="article:tag" content="Geek Tricks" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="How To Install Ubuntu 11.10 Or Any Other Operating System On Virtual Box" />
+    <meta name="twitter:description" content="The daily source of digital inspirations" />
+    <meta name="twitter:url" content="/TechnoTravel-in/" />
+    <meta name="twitter:image" content="/TechnoTravel-in/assets/images/pexels-photo-crop.jpg" />
+    <meta name="twitter:label1" content="Written by" />
+    <meta name="twitter:data1" content="TechnoTravel.in" />
+    <meta name="twitter:label2" content="Filed under" />
+    <meta name="twitter:data2" content="Geek Tricks" />
+    <meta name="twitter:site" content="@TechnoTravel_in" />
+    <meta name="twitter:creator" content="@TechnoTravel_in" />
+    <meta property="og:image:width" content="2000" />
+    <meta property="og:image:height" content="666" />
+
+    <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Website",
+    "publisher": {
+        "@type": "Organization",
+        "name": "TechnoTravel.in",
+        "logo": "/TechnoTravel-in/"
+    },
+    "url": "/TechnoTravel-in/how-to-install-ubuntu-1110-or-any-other",
+    "image": {
+        "@type": "ImageObject",
+        "url": "/TechnoTravel-in/assets/images/pexels-photo-crop.jpg",
+        "width": 2000,
+        "height": 666
+    },
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "/TechnoTravel-in/how-to-install-ubuntu-1110-or-any-other"
+    },
+    "description": "The daily source of digital inspirations"
+}
+    </script>
+
+    <!-- <script type="text/javascript" src="https://demo.ghost.io/public/ghost-sdk.min.js?v=724281a32e"></script>
+    <script type="text/javascript">
+    ghost.init({
+    	clientId: "ghost-frontend",
+    	clientSecret: "f84a07a72b17"
+    });
+    </script> -->
+
+    <meta name="generator" content="Jekyll 3.6.2" />
+    <link rel="alternate" type="application/rss+xml" title="How To Install Ubuntu 11.10 Or Any Other Operating System On Virtual Box" href="/TechnoTravel-in/feed.xml" />
+
+
+</head>
+<body class="post-template">
+
+    <div class="site-wrapper">
+        <!-- All the main content gets inserted here, index.hbs, post.hbs, etc -->
+        <!-- default -->
+
+<!-- The tag above means: insert everything in this file
+into the {body} of the default.hbs template -->
+
+<header class="site-header outer">
+    <div class="inner">
+        <nav class="site-nav">
+    <div class="site-nav-left">
+        
+            
+                <a class="site-nav-logo" href="">TechnoTravel.in</a>
+            
+        
+        
+            <ul class="nav" role="menu">
+    <li class="nav-home" role="menuitem"><a href="/TechnoTravel-in/">Home</a></li>
+    <!-- <li class="nav-getting-started" role="menuitem"><a href="/TechnoTravel-in/tag/getting-started/">Getting Started</a></li> -->
+    <li class="nav-how-to" role="menuitem"><a href="/TechnoTravel-in/tag/how-to/">How-To's</a></li>
+    <li class="nav-geek-tricks" role="menuitem"><a href="/TechnoTravel-in/tag/geek-tricks/">Geek Tricks</a></li>
+    <li class="nav-android" role="menuitem"><a href="/TechnoTravel-in/tag/android/">Android</a></li>
+    <li class="nav-windows" role="menuitem"><a href="/TechnoTravel-in/tag/windows/">Windows</a></li>
+    <li class="nav-downloads" role="menuitem"><a href="/TechnoTravel-in/downloads/">Downloads</a></li>
+    <!-- <li class="nav-try-ghost" role="menuitem"><a href="https://ghost.org">Try Ghost</a></li> -->
+    <li class="nav-about" role="menuitem"><a href="/TechnoTravel-in/about/">About</a></li>
+    <li class="nav-about" role="menuitem"><a href="/TechnoTravel-in/contact-us/">Contact Us</a></li>
+</ul>
+
+        
+    </div>
+    <div class="site-nav-right">
+        <div class="social-links">
+            
+                <a class="social-link social-link-fb" href="https://facebook.com/rajatpatel92" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M19 6h5V0h-5c-3.86 0-7 3.14-7 7v3H8v6h4v16h6V16h5l1-6h-6V7c0-.542.458-1 1-1z"/></svg>
+</a>
+            
+            
+                <a class="social-link social-link-tw" href="https://twitter.com/TechnoTravel_in" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M30.063 7.313c-.813 1.125-1.75 2.125-2.875 2.938v.75c0 1.563-.188 3.125-.688 4.625a15.088 15.088 0 0 1-2.063 4.438c-.875 1.438-2 2.688-3.25 3.813a15.015 15.015 0 0 1-4.625 2.563c-1.813.688-3.75 1-5.75 1-3.25 0-6.188-.875-8.875-2.625.438.063.875.125 1.375.125 2.688 0 5.063-.875 7.188-2.5-1.25 0-2.375-.375-3.375-1.125s-1.688-1.688-2.063-2.875c.438.063.813.125 1.125.125.5 0 1-.063 1.5-.25-1.313-.25-2.438-.938-3.313-1.938a5.673 5.673 0 0 1-1.313-3.688v-.063c.813.438 1.688.688 2.625.688a5.228 5.228 0 0 1-1.875-2c-.5-.875-.688-1.813-.688-2.75 0-1.063.25-2.063.75-2.938 1.438 1.75 3.188 3.188 5.25 4.25s4.313 1.688 6.688 1.813a5.579 5.579 0 0 1 1.5-5.438c1.125-1.125 2.5-1.688 4.125-1.688s3.063.625 4.188 1.813a11.48 11.48 0 0 0 3.688-1.375c-.438 1.375-1.313 2.438-2.563 3.188 1.125-.125 2.188-.438 3.313-.875z"/></svg>
+</a>
+            
+        </div>
+        
+            <a class="subscribe-button" href="#subscribe">Subscribe</a>
+        
+    </div>
+</nav>
+
+    </div>
+</header>
+
+<!-- Everything inside the #post tags pulls data from the post -->
+<!-- #post -->
+
+<main id="site-main" class="site-main outer" role="main">
+    <div class="inner">
+
+        <article class="post-full  no-image">
+
+            <header class="post-full-header">
+                <section class="post-full-meta">
+                    <time class="post-full-meta-date" datetime="31 December 2011">31 December 2011</time>
+                </section>
+                <h1 class="post-full-title">How To Install Ubuntu 11.10 Or Any Other Operating System On Virtual Box</h1>
+            </header>
+
+            
+
+            <section class="post-full-content">
+                <div class="kg-card-markdown">
+                    <div dir="ltr" style="text-align: left;" trbidi="on"><span class="Apple-style-span" style="font-family: Verdana, sans-serif;">Are you a predominantly A Windows user but want to try out some new OS without hurting your current Windows installation?...Then, this is it! The Virtual Box from Oracle Inc. will let you run your favorite Operating System as any other program in Windows' own environment. So, In this article, I'll help you setup Ubuntu machine in Virtual Box to run it in Windows' Environment.</span><br /><span class="Apple-style-span" style="font-family: Verdana, sans-serif;"><br /></span><br /><span class="Apple-style-span" style="font-family: Verdana, sans-serif;"><i>Note: Here we has used Ubuntu 11.10 as a reference OS, but It's not restricted to Ubuntu, You can Install any Operating System you want on VirtualBox.</i></span><br /><span class="Apple-style-span" style="font-family: Verdana, sans-serif;"><br /></span><br /><span class="Apple-style-span" style="font-family: Verdana, sans-serif;"><b>Essential downloads for this tutorial:</b></span><br /><br /><ol style="text-align: left;"><li><span class="Apple-style-span" style="font-family: Verdana, sans-serif;"><a href="http://download.virtualbox.org/virtualbox/4.1.8/VirtualBox-4.1.8-75467-Win.exe" target="_blank">Virtual Box</a> (From Oracle Inc.)</span></li><li><span class="Apple-style-span" style="font-family: Verdana, sans-serif;"><a href="http://www.ubuntu.com/start-download?distro=desktop&amp;bits=32&amp;release=latest" target="_blank">Ubuntu .iso image</a> OR LiveCD (OR any of your favorite OS)</span></li></ol><span class="Apple-style-span" style="font-family: Verdana, sans-serif;"><b>Download and Install Virtual Box</b><br /></span><br /><span class="Apple-style-span" style="font-family: Verdana, sans-serif;">Download VirtualBox from the above mentioned link. (If you have already installed the VirtualBox, then you may skip this section.)</span><br /><span class="Apple-style-span" style="font-family: Verdana, sans-serif;"><br /></span><br /><span class="Apple-style-span" style="font-family: Verdana, sans-serif;">Virtual Box is very easy "next, next,....finish" type installation, so I won't explain that in detail, instead I will tell you just to download it from the above mentioned link and install it to your desired location on your PC.</span><br /><span class="Apple-style-span" style="font-family: Verdana, sans-serif;"><br /></span><br /><span class="Apple-style-span" style="font-family: Verdana, sans-serif;"><b>Creating A Virtual Machine</b></span><br /><span class="Apple-style-span" style="font-family: Verdana, sans-serif;"><b><br /></b></span><br /><span class="Apple-style-span" style="font-family: Verdana, sans-serif;">After the successful installation of VirtualBox, you'll need to create a Virtual Machine inside the Virtual Box, in which you may select the size of RAM and Hard Disk to be used by Ubuntu (or any desired OS).</span><br /><span class="Apple-style-span" style="font-family: Verdana, sans-serif;"><br /></span><br /><span class="Apple-style-span" style="font-family: Verdana, sans-serif;">So, to create a Virtual Machine, open Virtual Box window and click on <i>Machine</i> and select <i>New</i></span><br /><div class="separator" style="clear: both; text-align: center;"><a href="http://1.bp.blogspot.com/-BMQqXm_U8o0/Tv6wdScv-MI/AAAAAAAAAZo/hB8h9uQ_LHQ/s1600/31-12-2011+10-44-10.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://1.bp.blogspot.com/-BMQqXm_U8o0/Tv6wdScv-MI/AAAAAAAAAZo/hB8h9uQ_LHQ/s1600/31-12-2011+10-44-10.png" /></a></div><span class="Apple-style-span" style="font-family: Verdana, sans-serif;"><i><br /></i></span><br /><span class="Apple-style-span" style="font-family: Verdana, sans-serif;">Then, the New Virtual Machine Wizard will open up. Click Next.</span><br /><div class="separator" style="clear: both; text-align: center;"><a href="http://2.bp.blogspot.com/-2Ut_fTFtXN0/Tv6woMkcBLI/AAAAAAAAAZ0/mAyLcIijLwo/s1600/31-12-2011+10-46-45.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://2.bp.blogspot.com/-2Ut_fTFtXN0/Tv6woMkcBLI/AAAAAAAAAZ0/mAyLcIijLwo/s1600/31-12-2011+10-46-45.png" /></a></div><span class="Apple-style-span" style="font-family: Verdana, sans-serif;"><br /></span><br /><span class="Apple-style-span" style="font-family: Verdana, sans-serif;">In the next window, type the OS name in the VM Name. The OS Type section will get changed automatically as you will type the VM Name.</span><br /><div class="separator" style="clear: both; text-align: center;"><a href="http://3.bp.blogspot.com/-App1TbFf5jE/Tv6wyqUqKPI/AAAAAAAAAaA/_5_pSbO9jz8/s1600/31-12-2011+10-47-17.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://3.bp.blogspot.com/-App1TbFf5jE/Tv6wyqUqKPI/AAAAAAAAAaA/_5_pSbO9jz8/s1600/31-12-2011+10-47-17.png" /></a></div><span class="Apple-style-span" style="font-family: Verdana, sans-serif;">Now, select the Memory that you want to allocate to the new OS. While selecting the memory, keep in mind the minimum requirements of the OS to be installed. As we are installing Ubuntu here, we have selected 1.5GB here, as we have a 4GB machine. After selecting the RAM or Memory, click Next.</span><br /><div class="separator" style="clear: both; text-align: center;"><a href="http://2.bp.blogspot.com/-1gmoSZ8fSlg/Tv6w-q-mjmI/AAAAAAAAAaM/G0olmngVCn8/s1600/31-12-2011+10-50-09.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://2.bp.blogspot.com/-1gmoSZ8fSlg/Tv6w-q-mjmI/AAAAAAAAAaM/G0olmngVCn8/s1600/31-12-2011+10-50-09.png" /></a></div><span class="Apple-style-span" style="font-family: Verdana, sans-serif;"><br /></span><br /><span class="Apple-style-span" style="font-family: Verdana, sans-serif;">Now it will ask you to create the hard disk. As you are doing this first time, select "Create New Hard Disk" and click next.</span><br /><div class="separator" style="clear: both; text-align: center;"><a href="http://3.bp.blogspot.com/-Msc-JxeFYJA/Tv6xIbv4OlI/AAAAAAAAAaY/IzcvoCH264g/s1600/31-12-2011+10-50-34.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://3.bp.blogspot.com/-Msc-JxeFYJA/Tv6xIbv4OlI/AAAAAAAAAaY/IzcvoCH264g/s1600/31-12-2011+10-50-34.png" /></a></div><span class="Apple-style-span" style="font-family: Verdana, sans-serif;">Now in the next window, you'll be prompted to select the file type of the Virtual Hard Disk File. You can select any of them, but we have selected VHD here. Then click Next.</span><br /><div class="separator" style="clear: both; text-align: center;"><a href="http://2.bp.blogspot.com/-bseEyO1j83E/Tv6xT6ADICI/AAAAAAAAAak/c3VJndvTa70/s1600/31-12-2011+10-51-03.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://2.bp.blogspot.com/-bseEyO1j83E/Tv6xT6ADICI/AAAAAAAAAak/c3VJndvTa70/s1600/31-12-2011+10-51-03.png" /></a></div><span class="Apple-style-span" style="font-family: Verdana, sans-serif;">Then an important prompt is presented here asking whether you want to create the Dynamically Expanding Hard drive or a fixed hard drive. The Dyanmically hard drive will keep increasing as per the need of the OS while Fixed Hard drive will remain in the fixed volume state as you will select the volume size in the next step. We have selected the dynamically allocated hard drive. After selecting your choice, click next.</span><br /><div class="separator" style="clear: both; text-align: center;"><a href="http://3.bp.blogspot.com/-8emvRYFAH_U/Tv6xd_KMshI/AAAAAAAAAaw/6p20rxNBVpI/s1600/31-12-2011+10-51-49.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://3.bp.blogspot.com/-8emvRYFAH_U/Tv6xd_KMshI/AAAAAAAAAaw/6p20rxNBVpI/s1600/31-12-2011+10-51-49.png" /></a></div><span class="Apple-style-span" style="font-family: Verdana, sans-serif;">Now it will prompt to select the location and size. Generally you need not to select the location. But if you are interested to install it in another location, select your desired location by clicking the right icon.</span><br /><span class="Apple-style-span" style="font-family: Verdana, sans-serif;"><br /></span><br /><span class="Apple-style-span" style="font-family: Verdana, sans-serif;">And for the Hard disk size selection, you are free to select the size of the Hard disk. But, once again, keep the minimum requirements of the OS in mind. Here, we have selected 20GB for Ubuntu 11.10.</span><br /><div class="separator" style="clear: both; text-align: center;"><a href="http://3.bp.blogspot.com/-nYFu64DJHJs/Tv6xvA8aYwI/AAAAAAAAAa8/3MTHrIv4axc/s1600/31-12-2011+10-52-29.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://3.bp.blogspot.com/-nYFu64DJHJs/Tv6xvA8aYwI/AAAAAAAAAa8/3MTHrIv4axc/s1600/31-12-2011+10-52-29.png" /></a></div><span class="Apple-style-span" style="font-family: Verdana, sans-serif;">As soon as you click next, You will be presented with the summary. Double check the details and then click 'create'.</span><br /><div class="separator" style="clear: both; text-align: center;"><a href="http://2.bp.blogspot.com/-DX4SOgYe4Ko/Tv6x3fengxI/AAAAAAAAAbI/b5Ga3wuEGPU/s1600/31-12-2011+10-52-54.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://2.bp.blogspot.com/-DX4SOgYe4Ko/Tv6x3fengxI/AAAAAAAAAbI/b5Ga3wuEGPU/s1600/31-12-2011+10-52-54.png" /></a></div><span class="Apple-style-span" style="font-family: Verdana, sans-serif;">Then another summary will be presented. Click 'Create'.</span><br /><div class="separator" style="clear: both; text-align: center;"><a href="http://3.bp.blogspot.com/-QP1nwGgiWVU/Tv6yBPbQGmI/AAAAAAAAAbU/WnV30PbMHLo/s1600/31-12-2011+10-53-11.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://3.bp.blogspot.com/-QP1nwGgiWVU/Tv6yBPbQGmI/AAAAAAAAAbU/WnV30PbMHLo/s1600/31-12-2011+10-53-11.png" /></a></div><span class="Apple-style-span" style="font-family: Verdana, sans-serif;">As soon as you click create, it will create a entry named Ubuntu in the VirtualBox window. And thus, you have successfully created a Virtual Machine.</span><br /><span class="Apple-style-span" style="font-family: Verdana, sans-serif;"><br /></span><br /><span class="Apple-style-span" style="font-family: Verdana, sans-serif;"><b>Insalling the Operating Syatem On Virtual Machine</b></span><br /><span class="Apple-style-span" style="font-family: Verdana, sans-serif;"><br /></span><br /><span class="Apple-style-span" style="font-family: Verdana, sans-serif;">Now, to install the operating system on the recently created Virtual Machine, right click on the OS entry in the Virtual Box window and select "Settings.."</span><br /><div class="separator" style="clear: both; text-align: center;"><a href="http://3.bp.blogspot.com/-rEGNL9t1Np4/Tv6yJOqvyUI/AAAAAAAAAbg/tSyDBtOwWkA/s1600/31-12-2011+10-53-41.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://3.bp.blogspot.com/-rEGNL9t1Np4/Tv6yJOqvyUI/AAAAAAAAAbg/tSyDBtOwWkA/s1600/31-12-2011+10-53-41.png" /></a></div><span class="Apple-style-span" style="font-family: Verdana, sans-serif;"><br /></span><br /><span class="Apple-style-span" style="font-family: Verdana, sans-serif;">In the setting box, navigate to the "Storage" tab. In the pane at the Right side, click the small CD-Drive like icon to select the ISO Image.</span><br /><div class="separator" style="clear: both; text-align: center;"><a href="http://2.bp.blogspot.com/-6FjiGOoXnUM/Tv6yToGgwrI/AAAAAAAAAbs/7IPs1490cDY/s1600/31-12-2011+10-58-48.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://2.bp.blogspot.com/-6FjiGOoXnUM/Tv6yToGgwrI/AAAAAAAAAbs/7IPs1490cDY/s1600/31-12-2011+10-58-48.png" /></a></div><span class="Apple-style-span" style="font-family: Verdana, sans-serif;">Then in the next dialog box, click "Choose Disk".</span><br /><div class="separator" style="clear: both; text-align: center;"><a href="http://1.bp.blogspot.com/-1zqnREl3YY8/Tv6ydw_ZLTI/AAAAAAAAAb4/xtBYwQUAsIc/s1600/31-12-2011+10-59-08.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://1.bp.blogspot.com/-1zqnREl3YY8/Tv6ydw_ZLTI/AAAAAAAAAb4/xtBYwQUAsIc/s1600/31-12-2011+10-59-08.png" /></a></div><span class="Apple-style-span" style="font-family: Verdana, sans-serif;">Then select the ISO image of Ubuntu(Or your desired OS) from its saved location. So, after the selection the Ubuntu ISO Image will show up under "IDE Controller".</span><br /><div class="separator" style="clear: both; text-align: center;"><a href="http://3.bp.blogspot.com/-q5HeYhvJsAA/Tv6yj2P10HI/AAAAAAAAAcE/ueLCiMizNRw/s1600/31-12-2011+10-59-43.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://3.bp.blogspot.com/-q5HeYhvJsAA/Tv6yj2P10HI/AAAAAAAAAcE/ueLCiMizNRw/s1600/31-12-2011+10-59-43.png" /></a></div><span class="Apple-style-span" style="font-family: Verdana, sans-serif;"><br /></span><br /><span class="Apple-style-span" style="font-family: Verdana, sans-serif;">Now, move your eye to right side of that pane, as you can see the Attributes row adjacent to the ISO Image selection pane. Check "Live CD/DVD" option and click "OK".</span><br /><div class="separator" style="clear: both; text-align: center;"><a href="http://3.bp.blogspot.com/-sBxFihz9CUg/Tv6yqGo9uOI/AAAAAAAAAcQ/cqRAUuQ21Y8/s1600/31-12-2011+11-00-24.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://3.bp.blogspot.com/-sBxFihz9CUg/Tv6yqGo9uOI/AAAAAAAAAcQ/cqRAUuQ21Y8/s1600/31-12-2011+11-00-24.png" /></a></div><span class="Apple-style-span" style="font-family: Verdana, sans-serif;"><br /></span><br /><span class="Apple-style-span" style="font-family: Verdana, sans-serif;">Thus you have pointed your virtual machine's CD Drive to the Ubuntu ISO Image to get it installed on the Virtual Machine through the Live CD/DVD.</span><br /><span class="Apple-style-span" style="font-family: Verdana, sans-serif;"><br /></span><br /><span class="Apple-style-span" style="font-family: Verdana, sans-serif;"><b>Starting the Installation of Ubuntu</b></span><br /><span class="Apple-style-span" style="font-family: Verdana, sans-serif;"><br /></span><br /><span class="Apple-style-span" style="font-family: Verdana, sans-serif;">Now, after all is done successfully, Right click in the Ubuntu entry of the virtual Machine and click Start.</span><br /><div class="separator" style="clear: both; text-align: center;"><a href="http://3.bp.blogspot.com/-TvfMZGsfnGQ/Tv6yzYSBouI/AAAAAAAAAcc/xws6bc0rT_Q/s1600/31-12-2011+11-01-33.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://3.bp.blogspot.com/-TvfMZGsfnGQ/Tv6yzYSBouI/AAAAAAAAAcc/xws6bc0rT_Q/s1600/31-12-2011+11-01-33.png" /></a></div><span class="Apple-style-span" style="font-family: Verdana, sans-serif;"><br /></span><br /><span class="Apple-style-span" style="font-family: Verdana, sans-serif;">After clicking "Start" button, be patient as the installation of the new OS on the Virtual Machine will start. It will prompt you to select the language.&nbsp;</span><br /><div class="separator" style="clear: both; text-align: center;"><a href="http://1.bp.blogspot.com/-RsArXpQgAyM/Tv6y-QZAW6I/AAAAAAAAAco/qUyo-2QYn2k/s1600/31-12-2011+10-57-11.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://1.bp.blogspot.com/-RsArXpQgAyM/Tv6y-QZAW6I/AAAAAAAAAco/qUyo-2QYn2k/s1600/31-12-2011+10-57-11.png" /></a></div><span class="Apple-style-span" style="font-family: Verdana, sans-serif;"><br /></span><br /><span class="Apple-style-span" style="font-family: Verdana, sans-serif;"><i>Note: In the installation process, keep your NumLock off as we got unexpected error while installing Ubuntu. But it's fine if you are installing the OS other than Ubuntu.</i></span><br /><span class="Apple-style-span" style="font-family: Verdana, sans-serif;"><br /></span><br /><span class="Apple-style-span" style="font-family: Verdana, sans-serif;">Now, it's all set to install the OS in the VirtualBox, as the native interface of the OS (Unity in case of Ubuntu) will come up.&nbsp;</span><br /><div class="separator" style="clear: both; text-align: center;"><a href="http://2.bp.blogspot.com/-SBpESc8Ku98/Tv6zGXTVWRI/AAAAAAAAAc0/TMzzKCI0V-k/s1600/31-12-2011+11-04-14.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://2.bp.blogspot.com/-SBpESc8Ku98/Tv6zGXTVWRI/AAAAAAAAAc0/TMzzKCI0V-k/s1600/31-12-2011+11-04-14.png" /></a></div><span class="Apple-style-span" style="font-family: Verdana, sans-serif;"><br /></span><br /><span class="Apple-style-span" style="font-family: Verdana, sans-serif;">After this do the installation of the Operating system normally and install the Operating system on VirtualBox by Oracle.</span><br /><span class="Apple-style-span" style="font-family: Verdana, sans-serif;"><br /></span><br /><span class="Apple-style-span" style="font-family: Verdana, sans-serif;"><br /></span></div>
+                </div>
+            </section>
+            <!-- <section class="post-full-meta">
+                
+                <span class="date-divider">/</span>
+                
+                        
+                            <a href='/TechnoTravel-in/tag/geek-tricks/'>GEEK TRICKS</a>,
+                        
+                        &nbsp;
+                    
+                        
+                            <a href='/TechnoTravel-in/tag/linux/'>LINUX</a>,
+                        
+                        &nbsp;
+                    
+                        
+                            <a href='/TechnoTravel-in/tag/software/'>SOFTWARE</a>,
+                        
+                        &nbsp;
+                    
+                        
+                            <a href='/TechnoTravel-in/tag/windows/'>WINDOWS</a>,
+                        
+                        &nbsp;
+                    
+                        
+                            <a href='/TechnoTravel-in/tag/how-to/'>HOW-TO</a>,
+                        
+                        &nbsp;
+                    
+                        
+                            <a href='/TechnoTravel-in/tag/technology/'>TECHNOLOGY</a>
+                        
+                        &nbsp;
+                    
+                
+            </section> -->
+
+            <!-- Email subscribe form at the bottom of the page -->
+            
+                <section class="subscribe-form">
+                    <h3 class="subscribe-form-title">Subscribe to TechnoTravel.in</h3>
+                    <p>Get the latest posts delivered right to your inbox</p>
+                    <form method="post" action="/subscribe/" class="">
+    <input class="confirm" type="hidden" name="confirm"  /><input class="location" type="hidden" name="location"  /><input class="referrer" type="hidden" name="referrer"  />
+
+    <div class="form-group">
+        <input class="subscribe-email" type="email" name="email"  placeholder="youremail@example.com" />
+    </div>
+    <button class="" type="submit" disabled><span>Subscribe</span></button>
+    <script type="text/javascript">(function(g,h,o,s,t){h[o]('.location')[s]=h[o]('.location')[s] || g.location.href;h[o]('.referrer')[s]=h[o]('.referrer')[s] || h.referrer;})(window,document,'querySelector','value');</script>
+</form>
+
+                </section>
+            
+
+            <footer class="post-full-footer">
+                <!-- Everything inside the #author tags pulls data from the author -->
+                <!-- #author-->
+                
+                    
+                        <section class="author-card">
+                            
+                                <img class="author-profile-image" src="/TechnoTravel-in/assets/images/rajat.jpg" alt="Rajat Patel" />
+                            
+                            <section class="author-card-content">
+                                <h4 class="author-card-name"><a href="/TechnoTravel-in/author/Rajat Patel">Rajat Patel</a></h4>
+                                
+                                    <p>Founder at TechnoTravel.in. Software Engineer & Business Analyst by profession. Avid open source evangelist. Mostly writes about Technology that interests him, and some neat tricks to make your day-to-day tech life a breeze.</p>
+                                
+                            </section>
+                        </section>
+                        <div class="post-full-footer-right">
+                            <a class="author-card-button" href="/TechnoTravel-in/author/rajat">Read More</a>
+                        </div>
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                <!-- /author  -->
+            </footer>
+
+            <!-- If you use Disqus comments, just uncomment this block.
+            The only thing you need to change is "test-apkdzgmqhj" - which
+            should be replaced with your own Disqus site-id. -->
+            
+                <section class="post-full-comments">
+                    <div id="disqus_thread"></div>
+                    <script>
+                        var disqus_config = function () {
+                            this.page.url = '/TechnoTravel-in/';
+                            this.page.identifier = 'TechnoTravel.in';
+                        };
+                        (function() {
+                            var d = document, s = d.createElement('script');
+                            s.src = 'https://technotravelin.disqus.com/embed.js';
+                            s.setAttribute('data-timestamp', +new Date());
+                            (d.head || d.body).appendChild(s);
+                        })();
+                    </script>
+                </section>
+            
+
+        </article>
+
+    </div>
+</main>
+
+<!-- Links to Previous/Next posts -->
+<aside class="read-next outer">
+    <div class="inner">
+        <div class="read-next-feed">
+            
+                
+                
+                
+                
+                    <article class="read-next-card"
+                        
+                            style="background-image: url(/TechnoTravel-in/assets/images/pexels-photo-crop.jpg)"
+                        
+                    >
+                        <header class="read-next-card-header">
+                            <small class="read-next-card-header-sitetitle">&mdash; TechnoTravel.in &mdash;</small>
+                            
+                                <h3 class="read-next-card-header-title"><a href="/TechnoTravel-in/tag/geek-tricks/">Geek tricks</a></h3>
+                            
+                        </header>
+                        <div class="read-next-divider"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 14.5s2 3 5 3 5.5-2.463 5.5-5.5S21 6.5 18 6.5c-5 0-7 11-12 11C2.962 17.5.5 15.037.5 12S3 6.5 6 6.5s4.5 3.5 4.5 3.5"/></svg>
+</div>
+                        <div class="read-next-card-content">
+                            <ul>
+                                
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                            <li><a href="/TechnoTravel-in/remotely-flash-files-onto-your-android">Remotely Flash Files onto Your Android via RemoteFlash [App]</a></li>
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                            <li><a href="/TechnoTravel-in/how-to-add-command-prompt-here-menu-in-folder-right-click-menu">How To Add "Command Prompt Here" Menu In Folder Right Click Menu</a></li>
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                            <li><a href="/TechnoTravel-in/task-killers-are-bad-for-android-here-is-the-reason-why-you-shoudnt-use-them">Task Killers Are Bad For Android. Here Is The Reason Why You Shouldn't Use Them</a></li>
+                                        
+                                    
+                                  
+                                
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                            </ul>
+                        </div>
+                        <footer class="read-next-card-footer">
+                            <a href="/TechnoTravel-in/tag/geek-tricks/">
+                                
+                                    See all 61 posts  →
+                                
+                            </a>
+                        </footer>
+                    </article>
+                
+            
+
+            <!-- If there's a next post, display it using the same markup included from - partials/post-card.hbs -->
+            
+                
+    <article class="post-card post-template no-image">
+        
+        <div class="post-card-content">
+            <a class="post-card-content-link" href="/TechnoTravel-in/solved-mobile-partner-dashboard">
+                <header class="post-card-header">
+                    
+                        
+                            
+                               <span class="post-card-tags">Geek tricks</span>
+                            
+                            
+                    
+
+                    <h2 class="post-card-title">[Solved] Mobile Partner Dashboard Deactivates Full Window Dragging</h2>
+                </header>
+                <section class="post-card-excerpt">
+                    <p>As a leading share holder in the Internet Modem production and marketing, The Huawei Technologies, provide a internet connector software especially for Windows users, namely Mobile Partner. If you are a current user</p>
+                </section>
+            </a>
+            <footer class="post-card-meta">
+                
+                    
+                        
+                        <img class="author-profile-image" src="/TechnoTravel-in/assets/images/rajat.jpg" alt="Rajat Patel" />
+                        
+                        <span class="post-card-author">
+                            <a href="/TechnoTravel-in/author/rajat/">Rajat Patel</a>
+                        </span>
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+            </footer>
+        </div>
+    </article>
+
+            
+
+            <!-- If there's a previous post, display it using the same markup included from - partials/post-card.hbs -->
+            
+                
+    <article class="post-card post-template no-image">
+        
+        <div class="post-card-content">
+            <a class="post-card-content-link" href="/TechnoTravel-in/how-to-create-your-own-proxy-server-to">
+                <header class="post-card-header">
+                    
+                        
+                            
+                               <span class="post-card-tags">Geek tricks</span>
+                            
+                            
+                    
+
+                    <h2 class="post-card-title">How To Create Your Own Proxy Server To Bypass Heavy-Handed Web Filters</h2>
+                </header>
+                <section class="post-card-excerpt">
+                    <p>If your workplace or school's extra-restrictive&nbsp;internet filter has you pulling your&nbsp;hair out during the occasional browsing&nbsp;break, there's hope! Here's a quick look at&nbsp;how to get around heavy-handed browser&nbsp;restrictions with the open-source PHProxy.Before we</p>
+                </section>
+            </a>
+            <footer class="post-card-meta">
+                
+                    
+                        
+                        <img class="author-profile-image" src="/TechnoTravel-in/assets/images/rajat.jpg" alt="Rajat Patel" />
+                        
+                        <span class="post-card-author">
+                            <a href="/TechnoTravel-in/author/rajat/">Rajat Patel</a>
+                        </span>
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+            </footer>
+        </div>
+    </article>
+
+            
+
+        </div>
+    </div>
+</aside>
+
+<!-- Floating header which appears on-scroll, included from includes/floating-header.hbs -->
+<div class="floating-header">
+    <div class="floating-header-logo">
+        <a href="/TechnoTravel-in/">
+            
+                <img src="/TechnoTravel-in/assets/images/favicon.ico" alt="TechnoTravel.in icon" />
+            
+            <span>TechnoTravel.in</span>
+        </a>
+    </div>
+    <span class="floating-header-divider">&mdash;</span>
+    <div class="floating-header-title">How To Install Ubuntu 11.10 Or Any Other Operating System On Virtual Box</div>
+    <div class="floating-header-share">
+        <div class="floating-header-share-label">Share this <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+    <path d="M7.5 15.5V4a1.5 1.5 0 1 1 3 0v4.5h2a1 1 0 0 1 1 1h2a1 1 0 0 1 1 1H18a1.5 1.5 0 0 1 1.5 1.5v3.099c0 .929-.13 1.854-.385 2.748L17.5 23.5h-9c-1.5-2-5.417-8.673-5.417-8.673a1.2 1.2 0 0 1 1.76-1.605L7.5 15.5zm6-6v2m-3-3.5v3.5m6-1v2"/>
+</svg>
+</div>
+        <a class="floating-header-share-tw" href="https://twitter.com/share?text=How+To+Install+Ubuntu+11.10+Or+Any+Other+Operating+System+On+Virtual+Box&amp;url=https://rajatpatel92.github.io/TechnoTravel-in/how-to-install-ubuntu-1110-or-any-other"
+            onclick="window.open(this.href, 'share-twitter', 'width=550,height=235');return false;">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M30.063 7.313c-.813 1.125-1.75 2.125-2.875 2.938v.75c0 1.563-.188 3.125-.688 4.625a15.088 15.088 0 0 1-2.063 4.438c-.875 1.438-2 2.688-3.25 3.813a15.015 15.015 0 0 1-4.625 2.563c-1.813.688-3.75 1-5.75 1-3.25 0-6.188-.875-8.875-2.625.438.063.875.125 1.375.125 2.688 0 5.063-.875 7.188-2.5-1.25 0-2.375-.375-3.375-1.125s-1.688-1.688-2.063-2.875c.438.063.813.125 1.125.125.5 0 1-.063 1.5-.25-1.313-.25-2.438-.938-3.313-1.938a5.673 5.673 0 0 1-1.313-3.688v-.063c.813.438 1.688.688 2.625.688a5.228 5.228 0 0 1-1.875-2c-.5-.875-.688-1.813-.688-2.75 0-1.063.25-2.063.75-2.938 1.438 1.75 3.188 3.188 5.25 4.25s4.313 1.688 6.688 1.813a5.579 5.579 0 0 1 1.5-5.438c1.125-1.125 2.5-1.688 4.125-1.688s3.063.625 4.188 1.813a11.48 11.48 0 0 0 3.688-1.375c-.438 1.375-1.313 2.438-2.563 3.188 1.125-.125 2.188-.438 3.313-.875z"/></svg>
+
+        </a>
+        <a class="floating-header-share-fb" href="https://www.facebook.com/sharer/sharer.php?u=https://rajatpatel92.github.io/TechnoTravel-in/how-to-install-ubuntu-1110-or-any-other"
+            onclick="window.open(this.href, 'share-facebook','width=580,height=296');return false;">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M19 6h5V0h-5c-3.86 0-7 3.14-7 7v3H8v6h4v16h6V16h5l1-6h-6V7c0-.542.458-1 1-1z"/></svg>
+
+        </a>
+    </div>
+    <progress class="progress" value="0">
+        <div class="progress-container">
+            <span class="progress-bar"></span>
+        </div>
+    </progress>
+</div>
+
+
+<!-- /post -->
+
+<!-- The #contentFor helper here will send everything inside it up to the matching #block helper found in default.hbs -->
+
+
+        <!-- Previous/next page links - displayed on every page -->
+        
+
+        <!-- The footer at the very bottom of the screen -->
+        <footer class="site-footer outer">
+            <div class="site-footer-content inner">
+                <section class="copyright"><a href="/TechnoTravel-in/">TechnoTravel.in</a> &copy; 2018</section>
+                <section class="poweredby">Proudly published with <a href="https://jekyllrb.com/">Jekyll</a> &
+                    <a href="https://pages.github.com/">GitHub Pages</a> using
+                    <a href="https://github.com/myJekyll/jasper2">Jasper2</a></section>
+                <nav class="site-footer-nav">
+                    <a href="/TechnoTravel-in/">Latest Posts</a>
+                    <a href="https://facebook.com/rajatpatel92" target="_blank" rel="noopener">Facebook</a>
+                    <a href="https://twitter.com/TechnoTravel_in" target="_blank" rel="noopener">Twitter</a>
+                    <a href="https://ghost.org" target="_blank" rel="noopener">Ghost</a>
+                </nav>
+            </div>
+        </footer>
+
+    </div>
+
+    <!-- The big email subscribe modal content -->
+    
+        <div id="subscribe" class="subscribe-overlay">
+            <a class="subscribe-overlay-close" href="#"></a>
+            <div class="subscribe-overlay-content">
+                
+                <h1 class="subscribe-overlay-title">Subscribe to TechnoTravel.in</h1>
+                <p class="subscribe-overlay-description">Stay up to date! Get all the latest &amp; greatest posts delivered straight to your inbox</p>
+                <form method="post" action="/subscribe/" class="">
+    <input class="confirm" type="hidden" name="confirm"  /><input class="location" type="hidden" name="location"  /><input class="referrer" type="hidden" name="referrer"  />
+
+    <div class="form-group">
+        <input class="subscribe-email" type="email" name="email"  placeholder="youremail@example.com" />
+    </div>
+    <button class="" type="submit" disabled><span>Subscribe</span></button>
+    <script type="text/javascript">(function(g,h,o,s,t){h[o]('.location')[s]=h[o]('.location')[s] || g.location.href;h[o]('.referrer')[s]=h[o]('.referrer')[s] || h.referrer;})(window,document,'querySelector','value');</script>
+</form>
+
+            </div>
+        </div>
+    
+
+    <!-- highlight.js -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+
+    <!-- jQuery + Fitvids, which makes all video embeds responsive -->
+    <script
+        src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous">
+    </script>
+    <script type="text/javascript" src="/TechnoTravel-in/assets/js/jquery.fitvids.js"></script>
+    <script type="text/javascript" src="https://demo.ghost.io/assets/js/jquery.fitvids.js?v=724281a32e"></script>
+
+
+    <!-- Paginator increased to "infinit" in _config.yml -->
+    <!-- if paginator.posts  -->
+    <!-- <script>
+        var maxPages = parseInt('');
+    </script>
+    <script src="/TechnoTravel-in/assets/js/infinitescroll.js"></script> -->
+    <!-- /endif -->
+
+    
+
+
+    <!-- Add Google Analytics  -->
+    <!-- Google Analytics Tracking code -->
+ <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', '', 'auto');
+  ga('send', 'pageview');
+
+ </script>
+
+
+    <!-- The #block helper will pull in data from the #contentFor other template files. In this case, there's some JavaScript which we only want to use in post.hbs, but it needs to be included down here, after jQuery has already loaded. -->
+    
+        <script>
+
+// NOTE: Scroll performance is poor in Safari
+// - this appears to be due to the events firing much more slowly in Safari.
+//   Dropping the scroll event and using only a raf loop results in smoother
+//   scrolling but continuous processing even when not scrolling
+$(document).ready(function () {
+    // Start fitVids
+    var $postContent = $(".post-full-content");
+    $postContent.fitVids();
+    // End fitVids
+
+    var progressBar = document.querySelector('progress');
+    var header = document.querySelector('.floating-header');
+    var title = document.querySelector('.post-full-title');
+
+    var lastScrollY = window.scrollY;
+    var lastWindowHeight = window.innerHeight;
+    var lastDocumentHeight = $(document).height();
+    var ticking = false;
+
+    function onScroll() {
+        lastScrollY = window.scrollY;
+        requestTick();
+    }
+
+    function onResize() {
+        lastWindowHeight = window.innerHeight;
+        lastDocumentHeight = $(document).height();
+        requestTick();
+    }
+
+    function requestTick() {
+        if (!ticking) {
+            requestAnimationFrame(update);
+        }
+        ticking = true;
+    }
+
+    function update() {
+        var trigger = title.getBoundingClientRect().top + window.scrollY;
+        var triggerOffset = title.offsetHeight + 35;
+        var progressMax = lastDocumentHeight - lastWindowHeight;
+
+        // show/hide floating header
+        if (lastScrollY >= trigger + triggerOffset) {
+            header.classList.add('floating-active');
+        } else {
+            header.classList.remove('floating-active');
+        }
+
+        progressBar.setAttribute('max', progressMax);
+        progressBar.setAttribute('value', lastScrollY);
+
+        ticking = false;
+    }
+
+    window.addEventListener('scroll', onScroll, {passive: true});
+    window.addEventListener('resize', onResize, false);
+
+    update();
+});
+</script>
+
+    
+
+    <!-- Ghost outputs important scripts and data with this tag - it should always be the very last thing before the closing body tag -->
+    <!-- ghost_foot -->
+
+</body>
+</html>
