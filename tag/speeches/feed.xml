@@ -3,9 +3,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
    
-      <title>/TechnoTravel-in/</title>
+      <title>http://localhost:4000/TechnoTravel-in/</title>
    
-   <link>/TechnoTravel-in/</link>
+   <link>http://localhost:4000/TechnoTravel-in/</link>
    <description>The daily source of digital inspirations</description>
    <language>en-in</language>
    
@@ -15,21 +15,21 @@
    <description>
    <![CDATA[ The daily source of digital inspirations ]]>
    </description>
-   <link>/TechnoTravel-in/</link>
+   <link>http://localhost:4000/TechnoTravel-in/</link>
    <image>
-   <url>/TechnoTravel-in/assets/images/favicon.ico</url>
+   <url>http://localhost:4000/TechnoTravel-in/assets/images/favicon.ico</url>
    <title>TechnoTravel.in</title>
-   <link>/TechnoTravel-in/</link>
+   <link>http://localhost:4000/TechnoTravel-in/</link>
    </image>
    <generator>Jekyll 3.6.2</generator>
    <lastBuildDate></lastBuildDate>
-   <atom:link href="/TechnoTravel-in/rss.xml" rel="self" type="application/rss+xml"/>
+   <atom:link href="http://localhost:4000/TechnoTravel-in/rss.xml" rel="self" type="application/rss+xml"/>
    <ttl>60</ttl>
    <atom:link href="rss" rel="self" type="application/rss+xml" />
    
 	<item>
 	  <title>I Have a Dream</title>
-	  <link>/TechnoTravel-in/i-have-a-dream</link>
+	  <link>http://localhost:4000/TechnoTravel-in/i-have-a-dream</link>
 		
 				
 		
@@ -50,7 +50,7 @@
 				
 		
 	  <pubDate>1963-08-28T15:48:00+05:30</pubDate>
-	  <guid>/TechnoTravel-in/i-have-a-dream</guid>
+	  <guid>http://localhost:4000/TechnoTravel-in/i-have-a-dream</guid>
 	  <description><![CDATA[
 	     <p>I am happy to join with you today in what will go down in history as the greatest demonstration for freedom in the history of our nation.</p>
 
@@ -151,7 +151,7 @@
 
 	<item>
 	  <title>The Purpose of Education</title>
-	  <link>/TechnoTravel-in/the-purpose-of-education</link>
+	  <link>http://localhost:4000/TechnoTravel-in/the-purpose-of-education</link>
 		
 				
 		
@@ -172,7 +172,7 @@
 				
 		
 	  <pubDate>1948-12-12T15:48:00+05:30</pubDate>
-	  <guid>/TechnoTravel-in/the-purpose-of-education</guid>
+	  <guid>http://localhost:4000/TechnoTravel-in/the-purpose-of-education</guid>
 	  <description><![CDATA[
 	     <p>As I engage in the so-called “bull sessions” around and about the school, I too often find that most college men have a misconception of the purpose of education. Most of the “brethren” think that education should equip them with the proper instruments of exploitation so that they can forever trample over the masses. Still others think that education should furnish them with noble ends rather than means to an end.</p>
 

@@ -3,9 +3,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
    
-      <title>/TechnoTravel-in/</title>
+      <title>http://localhost:4000/TechnoTravel-in/</title>
    
-   <link>/TechnoTravel-in/</link>
+   <link>http://localhost:4000/TechnoTravel-in/</link>
    <description>The daily source of digital inspirations</description>
    <language>en-in</language>
    
@@ -37,21 +37,21 @@
    <description>
    <![CDATA[ The daily source of digital inspirations ]]>
    </description>
-   <link>/TechnoTravel-in/</link>
+   <link>http://localhost:4000/TechnoTravel-in/</link>
    <image>
-   <url>/TechnoTravel-in/assets/images/favicon.ico</url>
+   <url>http://localhost:4000/TechnoTravel-in/assets/images/favicon.ico</url>
    <title>Abraham Lincoln - TechnoTravel.in</title>
-   <link>/TechnoTravel-in/</link>
+   <link>http://localhost:4000/TechnoTravel-in/</link>
    </image>
    <generator>Jekyll 3.6.2</generator>
    <lastBuildDate></lastBuildDate>
-   <atom:link href="/TechnoTravel-in/author/abraham/rss.xml" rel="self" type="application/rss+xml"/>
+   <atom:link href="http://localhost:4000/TechnoTravel-in/author/abraham/rss.xml" rel="self" type="application/rss+xml"/>
    <ttl>60</ttl>
    <atom:link href="rss" rel="self" type="application/rss+xml" />
    
 	<item>
 	  <title>Gettysburg Address</title>
-	  <link>/TechnoTravel-in/gettysburg-address</link>
+	  <link>http://localhost:4000/TechnoTravel-in/gettysburg-address</link>
 		
 				
 		
@@ -72,7 +72,7 @@
 				
 		
 	  <pubDate>1863-11-19T15:48:00+05:30</pubDate>
-	  <guid>/TechnoTravel-in/gettysburg-address</guid>
+	  <guid>http://localhost:4000/TechnoTravel-in/gettysburg-address</guid>
 	  <description><![CDATA[
 	     <p>Fourscore and seven years ago our fathers brought forth on this continent, a new nation, conceived in Liberty, and dedicated to the proposition that all men are created equal.</p>
 

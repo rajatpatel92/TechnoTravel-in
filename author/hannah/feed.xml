@@ -3,9 +3,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
    
-      <title>/TechnoTravel-in/</title>
+      <title>http://localhost:4000/TechnoTravel-in/</title>
    
-   <link>/TechnoTravel-in/</link>
+   <link>http://localhost:4000/TechnoTravel-in/</link>
    <description>The daily source of digital inspirations</description>
    <language>en-in</language>
    
@@ -37,21 +37,21 @@
    <description>
    <![CDATA[ The daily source of digital inspirations ]]>
    </description>
-   <link>/TechnoTravel-in/</link>
+   <link>http://localhost:4000/TechnoTravel-in/</link>
    <image>
-   <url>/TechnoTravel-in/assets/images/favicon.ico</url>
+   <url>http://localhost:4000/TechnoTravel-in/assets/images/favicon.ico</url>
    <title>Hannah Wolfe - TechnoTravel.in</title>
-   <link>/TechnoTravel-in/</link>
+   <link>http://localhost:4000/TechnoTravel-in/</link>
    </image>
    <generator>Jekyll 3.6.2</generator>
    <lastBuildDate></lastBuildDate>
-   <atom:link href="/TechnoTravel-in/author/hannah/rss.xml" rel="self" type="application/rss+xml"/>
+   <atom:link href="http://localhost:4000/TechnoTravel-in/author/hannah/rss.xml" rel="self" type="application/rss+xml"/>
    <ttl>60</ttl>
    <atom:link href="rss" rel="self" type="application/rss+xml" />
    
 	<item>
 	  <title>The Businessman & The Fisherman</title>
-	  <link>/TechnoTravel-in/the-businessman-and-fisherman</link>
+	  <link>http://localhost:4000/TechnoTravel-in/the-businessman-and-fisherman</link>
 		
 				
 		
@@ -72,7 +72,7 @@
 				
 		
 	  <pubDate>2014-08-12T15:48:00+05:30</pubDate>
-	  <guid>/TechnoTravel-in/the-businessman-and-fisherman</guid>
+	  <guid>http://localhost:4000/TechnoTravel-in/the-businessman-and-fisherman</guid>
 	  <description><![CDATA[
 	     <p>An American businessman took a vacation to a small coastal Mexican village on doctor’s orders. Unable to sleep after an urgent phone call from the office the first morning, he walked out to the pier to clear his head. A small boat with just one fisherman had docked, and inside the boat were several large yellowfin tuna. The American complimented the Mexican on the quality of his fish.</p>
 

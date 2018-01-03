@@ -4,7 +4,7 @@
     <title> - Articles</title>
     <description>The daily source of digital inspirations</description>
     <link>
-    </link>
+    http://localhost:4000</link>
     
       
       <item>
@@ -16,8 +16,8 @@
         
         <pubDate>Thu, 27 Jul 2017 10:00:00 +0000</pubDate>
         <link>
-        /welcome</link>
-        <guid isPermaLink="true">/welcome</guid>
+        http://localhost:4000/welcome</link>
+        <guid isPermaLink="true">http://localhost:4000/welcome</guid>
       </item>
       
     
@@ -71,8 +71,8 @@
         
         <pubDate>Thu, 27 Jul 2017 09:00:00 +0000</pubDate>
         <link>
-        /the-editor</link>
-        <guid isPermaLink="true">/the-editor</guid>
+        http://localhost:4000/the-editor</link>
+        <guid isPermaLink="true">http://localhost:4000/the-editor</guid>
       </item>
       
     
@@ -111,8 +111,8 @@
         
         <pubDate>Thu, 27 Jul 2017 08:00:00 +0000</pubDate>
         <link>
-        /using-tags</link>
-        <guid isPermaLink="true">/using-tags</guid>
+        http://localhost:4000/using-tags</link>
+        <guid isPermaLink="true">http://localhost:4000/using-tags</guid>
       </item>
       
     
@@ -135,8 +135,8 @@
         
         <pubDate>Thu, 27 Jul 2017 07:00:00 +0000</pubDate>
         <link>
-        /managing-users</link>
-        <guid isPermaLink="true">/managing-users</guid>
+        http://localhost:4000/managing-users</link>
+        <guid isPermaLink="true">http://localhost:4000/managing-users</guid>
       </item>
       
     
@@ -154,8 +154,8 @@
         
         <pubDate>Thu, 27 Jul 2017 06:00:00 +0000</pubDate>
         <link>
-        /private-sites</link>
-        <guid isPermaLink="true">/private-sites</guid>
+        http://localhost:4000/private-sites</link>
+        <guid isPermaLink="true">http://localhost:4000/private-sites</guid>
       </item>
       
     
@@ -210,8 +210,8 @@
         
         <pubDate>Thu, 27 Jul 2017 05:00:00 +0000</pubDate>
         <link>
-        /advanced-markdown</link>
-        <guid isPermaLink="true">/advanced-markdown</guid>
+        http://localhost:4000/advanced-markdown</link>
+        <guid isPermaLink="true">http://localhost:4000/advanced-markdown</guid>
       </item>
       
     
@@ -240,8 +240,8 @@
         
         <pubDate>Thu, 27 Jul 2017 04:00:00 +0000</pubDate>
         <link>
-        /themes</link>
-        <guid isPermaLink="true">/themes</guid>
+        http://localhost:4000/themes</link>
+        <guid isPermaLink="true">http://localhost:4000/themes</guid>
       </item>
       
     
@@ -255,8 +255,8 @@
         
         <pubDate>Tue, 12 Aug 2014 10:18:00 +0000</pubDate>
         <link>
-        /the-businessman-and-fisherman</link>
-        <guid isPermaLink="true">/the-businessman-and-fisherman</guid>
+        http://localhost:4000/the-businessman-and-fisherman</link>
+        <guid isPermaLink="true">http://localhost:4000/the-businessman-and-fisherman</guid>
       </item>
       
     
@@ -268,8 +268,8 @@
         
         <pubDate>Sun, 09 Jun 2013 13:46:00 +0530</pubDate>
         <link>
-        /remotely-flash-files-onto-your-android</link>
-        <guid isPermaLink="true">/remotely-flash-files-onto-your-android</guid>
+        http://localhost:4000/remotely-flash-files-onto-your-android</link>
+        <guid isPermaLink="true">http://localhost:4000/remotely-flash-files-onto-your-android</guid>
       </item>
       
     
@@ -281,8 +281,8 @@
         
         <pubDate>Tue, 20 Nov 2012 12:27:00 +0530</pubDate>
         <link>
-        /how-to-add-command-prompt-here-menu-in-folder-right-click-menu</link>
-        <guid isPermaLink="true">/how-to-add-command-prompt-here-menu-in-folder-right-click-menu</guid>
+        http://localhost:4000/how-to-add-command-prompt-here-menu-in-folder-right-click-menu</link>
+        <guid isPermaLink="true">http://localhost:4000/how-to-add-command-prompt-here-menu-in-folder-right-click-menu</guid>
       </item>
       
     
@@ -294,8 +294,8 @@
         
         <pubDate>Fri, 09 Nov 2012 22:23:00 +0530</pubDate>
         <link>
-        /task-killers-are-bad-for-android-here-is-the-reason-why-you-shoudnt-use-them</link>
-        <guid isPermaLink="true">/task-killers-are-bad-for-android-here-is-the-reason-why-you-shoudnt-use-them</guid>
+        http://localhost:4000/task-killers-are-bad-for-android-here-is-the-reason-why-you-shoudnt-use-them</link>
+        <guid isPermaLink="true">http://localhost:4000/task-killers-are-bad-for-android-here-is-the-reason-why-you-shoudnt-use-them</guid>
       </item>
       
     
@@ -307,8 +307,8 @@
         
         <pubDate>Fri, 09 Nov 2012 13:31:00 +0530</pubDate>
         <link>
-        /6-reasons-why-windows-8-is-more-secure-than-windows-7</link>
-        <guid isPermaLink="true">/6-reasons-why-windows-8-is-more-secure-than-windows-7</guid>
+        http://localhost:4000/6-reasons-why-windows-8-is-more-secure-than-windows-7</link>
+        <guid isPermaLink="true">http://localhost:4000/6-reasons-why-windows-8-is-more-secure-than-windows-7</guid>
       </item>
       
     
@@ -320,8 +320,8 @@
         
         <pubDate>Sun, 23 Sep 2012 10:58:00 +0530</pubDate>
         <link>
-        /still-no-jelly-bean-for-your-android-get-its-best-features-with-these-apps</link>
-        <guid isPermaLink="true">/still-no-jelly-bean-for-your-android-get-its-best-features-with-these-apps</guid>
+        http://localhost:4000/still-no-jelly-bean-for-your-android-get-its-best-features-with-these-apps</link>
+        <guid isPermaLink="true">http://localhost:4000/still-no-jelly-bean-for-your-android-get-its-best-features-with-these-apps</guid>
       </item>
       
     
@@ -333,8 +333,8 @@
         
         <pubDate>Sun, 23 Sep 2012 08:29:00 +0530</pubDate>
         <link>
-        /early-beta-of-firefox-os-for-smartphones-running-on-zte-smartphone-video</link>
-        <guid isPermaLink="true">/early-beta-of-firefox-os-for-smartphones-running-on-zte-smartphone-video</guid>
+        http://localhost:4000/early-beta-of-firefox-os-for-smartphones-running-on-zte-smartphone-video</link>
+        <guid isPermaLink="true">http://localhost:4000/early-beta-of-firefox-os-for-smartphones-running-on-zte-smartphone-video</guid>
       </item>
       
     
@@ -348,8 +348,8 @@
         
         <pubDate>Sat, 01 Sep 2012 10:00:00 +0000</pubDate>
         <link>
-        /a-full-and-comprehensive-style-test</link>
-        <guid isPermaLink="true">/a-full-and-comprehensive-style-test</guid>
+        http://localhost:4000/a-full-and-comprehensive-style-test</link>
+        <guid isPermaLink="true">http://localhost:4000/a-full-and-comprehensive-style-test</guid>
       </item>
       
     
@@ -361,8 +361,8 @@
         
         <pubDate>Sun, 26 Aug 2012 12:27:00 +0530</pubDate>
         <link>
-        /how-to-check-disk-for-errors-in-windows-a-complete-guide</link>
-        <guid isPermaLink="true">/how-to-check-disk-for-errors-in-windows-a-complete-guide</guid>
+        http://localhost:4000/how-to-check-disk-for-errors-in-windows-a-complete-guide</link>
+        <guid isPermaLink="true">http://localhost:4000/how-to-check-disk-for-errors-in-windows-a-complete-guide</guid>
       </item>
       
     
@@ -374,8 +374,8 @@
         
         <pubDate>Mon, 20 Aug 2012 11:48:00 +0530</pubDate>
         <link>
-        /15-top-free-websites-to-backup-and-share-your-data-on-the-cloud</link>
-        <guid isPermaLink="true">/15-top-free-websites-to-backup-and-share-your-data-on-the-cloud</guid>
+        http://localhost:4000/15-top-free-websites-to-backup-and-share-your-data-on-the-cloud</link>
+        <guid isPermaLink="true">http://localhost:4000/15-top-free-websites-to-backup-and-share-your-data-on-the-cloud</guid>
       </item>
       
     
@@ -387,8 +387,8 @@
         
         <pubDate>Tue, 14 Aug 2012 18:15:00 +0530</pubDate>
         <link>
-        /shoot-multiple-photos-in-seconds-on-any-android-device-with-fast-burst-camera-app</link>
-        <guid isPermaLink="true">/shoot-multiple-photos-in-seconds-on-any-android-device-with-fast-burst-camera-app</guid>
+        http://localhost:4000/shoot-multiple-photos-in-seconds-on-any-android-device-with-fast-burst-camera-app</link>
+        <guid isPermaLink="true">http://localhost:4000/shoot-multiple-photos-in-seconds-on-any-android-device-with-fast-burst-camera-app</guid>
       </item>
       
     
@@ -400,8 +400,8 @@
         
         <pubDate>Tue, 14 Aug 2012 12:06:00 +0530</pubDate>
         <link>
-        /what-is-opendns-why-you-absolutely-need-it-to-stay-secure-and-protected</link>
-        <guid isPermaLink="true">/what-is-opendns-why-you-absolutely-need-it-to-stay-secure-and-protected</guid>
+        http://localhost:4000/what-is-opendns-why-you-absolutely-need-it-to-stay-secure-and-protected</link>
+        <guid isPermaLink="true">http://localhost:4000/what-is-opendns-why-you-absolutely-need-it-to-stay-secure-and-protected</guid>
       </item>
       
     
@@ -413,8 +413,8 @@
         
         <pubDate>Mon, 13 Aug 2012 23:57:00 +0530</pubDate>
         <link>
-        /how-to-build-website-cheaply-get-upto-20-off-on-bigrock-products</link>
-        <guid isPermaLink="true">/how-to-build-website-cheaply-get-upto-20-off-on-bigrock-products</guid>
+        http://localhost:4000/how-to-build-website-cheaply-get-upto-20-off-on-bigrock-products</link>
+        <guid isPermaLink="true">http://localhost:4000/how-to-build-website-cheaply-get-upto-20-off-on-bigrock-products</guid>
       </item>
       
     
@@ -426,8 +426,8 @@
         
         <pubDate>Sun, 12 Aug 2012 13:32:00 +0530</pubDate>
         <link>
-        /all-that-you-want-to-know-about-wi-fi</link>
-        <guid isPermaLink="true">/all-that-you-want-to-know-about-wi-fi</guid>
+        http://localhost:4000/all-that-you-want-to-know-about-wi-fi</link>
+        <guid isPermaLink="true">http://localhost:4000/all-that-you-want-to-know-about-wi-fi</guid>
       </item>
       
     
@@ -439,8 +439,8 @@
         
         <pubDate>Sat, 11 Aug 2012 11:57:00 +0530</pubDate>
         <link>
-        /how-its-made-compact-disks-cds-video</link>
-        <guid isPermaLink="true">/how-its-made-compact-disks-cds-video</guid>
+        http://localhost:4000/how-its-made-compact-disks-cds-video</link>
+        <guid isPermaLink="true">http://localhost:4000/how-its-made-compact-disks-cds-video</guid>
       </item>
       
     
@@ -452,8 +452,8 @@
         
         <pubDate>Fri, 10 Aug 2012 22:16:00 +0530</pubDate>
         <link>
-        /google-translate-gets-updated-for-android-now-supports-translating-photos</link>
-        <guid isPermaLink="true">/google-translate-gets-updated-for-android-now-supports-translating-photos</guid>
+        http://localhost:4000/google-translate-gets-updated-for-android-now-supports-translating-photos</link>
+        <guid isPermaLink="true">http://localhost:4000/google-translate-gets-updated-for-android-now-supports-translating-photos</guid>
       </item>
       
     
@@ -465,8 +465,8 @@
         
         <pubDate>Fri, 10 Aug 2012 11:13:00 +0530</pubDate>
         <link>
-        /pulse-popular-android-reader-is-now-available-for-web</link>
-        <guid isPermaLink="true">/pulse-popular-android-reader-is-now-available-for-web</guid>
+        http://localhost:4000/pulse-popular-android-reader-is-now-available-for-web</link>
+        <guid isPermaLink="true">http://localhost:4000/pulse-popular-android-reader-is-now-available-for-web</guid>
       </item>
       
     
@@ -478,8 +478,8 @@
         
         <pubDate>Thu, 09 Aug 2012 22:23:00 +0530</pubDate>
         <link>
-        /how-to-use-internet-explorer-in-google-chrome-with-ie-tab-extension</link>
-        <guid isPermaLink="true">/how-to-use-internet-explorer-in-google-chrome-with-ie-tab-extension</guid>
+        http://localhost:4000/how-to-use-internet-explorer-in-google-chrome-with-ie-tab-extension</link>
+        <guid isPermaLink="true">http://localhost:4000/how-to-use-internet-explorer-in-google-chrome-with-ie-tab-extension</guid>
       </item>
       
     
@@ -491,8 +491,8 @@
         
         <pubDate>Thu, 09 Aug 2012 15:24:00 +0530</pubDate>
         <link>
-        /top-5-android-web-browsers-for-better-browsing-experience</link>
-        <guid isPermaLink="true">/top-5-android-web-browsers-for-better-browsing-experience</guid>
+        http://localhost:4000/top-5-android-web-browsers-for-better-browsing-experience</link>
+        <guid isPermaLink="true">http://localhost:4000/top-5-android-web-browsers-for-better-browsing-experience</guid>
       </item>
       
     
@@ -504,8 +504,8 @@
         
         <pubDate>Thu, 09 Aug 2012 00:41:00 +0530</pubDate>
         <link>
-        /hould-i-buy-nexus-7-here-are-some-videos-to-help-you-out</link>
-        <guid isPermaLink="true">/hould-i-buy-nexus-7-here-are-some-videos-to-help-you-out</guid>
+        http://localhost:4000/hould-i-buy-nexus-7-here-are-some-videos-to-help-you-out</link>
+        <guid isPermaLink="true">http://localhost:4000/hould-i-buy-nexus-7-here-are-some-videos-to-help-you-out</guid>
       </item>
       
     
@@ -517,8 +517,8 @@
         
         <pubDate>Tue, 07 Aug 2012 22:39:00 +0530</pubDate>
         <link>
-        /pros-and-cons-of-cloud-basedonline-antivirus</link>
-        <guid isPermaLink="true">/pros-and-cons-of-cloud-basedonline-antivirus</guid>
+        http://localhost:4000/pros-and-cons-of-cloud-basedonline-antivirus</link>
+        <guid isPermaLink="true">http://localhost:4000/pros-and-cons-of-cloud-basedonline-antivirus</guid>
       </item>
       
     
@@ -530,8 +530,8 @@
         
         <pubDate>Mon, 06 Aug 2012 18:55:00 +0530</pubDate>
         <link>
-        /how-fiber-optic-cables-actually-work</link>
-        <guid isPermaLink="true">/how-fiber-optic-cables-actually-work</guid>
+        http://localhost:4000/how-fiber-optic-cables-actually-work</link>
+        <guid isPermaLink="true">http://localhost:4000/how-fiber-optic-cables-actually-work</guid>
       </item>
       
     
@@ -543,8 +543,8 @@
         
         <pubDate>Mon, 06 Aug 2012 17:58:00 +0530</pubDate>
         <link>
-        /download-torrents-to-your-android-via-bittorrent</link>
-        <guid isPermaLink="true">/download-torrents-to-your-android-via-bittorrent</guid>
+        http://localhost:4000/download-torrents-to-your-android-via-bittorrent</link>
+        <guid isPermaLink="true">http://localhost:4000/download-torrents-to-your-android-via-bittorrent</guid>
       </item>
       
     
@@ -556,8 +556,8 @@
         
         <pubDate>Mon, 06 Aug 2012 11:50:00 +0530</pubDate>
         <link>
-        /how-to-access-folders-of-your-android-on-your-pc-via-ftp</link>
-        <guid isPermaLink="true">/how-to-access-folders-of-your-android-on-your-pc-via-ftp</guid>
+        http://localhost:4000/how-to-access-folders-of-your-android-on-your-pc-via-ftp</link>
+        <guid isPermaLink="true">http://localhost:4000/how-to-access-folders-of-your-android-on-your-pc-via-ftp</guid>
       </item>
       
     
@@ -569,8 +569,8 @@
         
         <pubDate>Sun, 05 Aug 2012 19:52:00 +0530</pubDate>
         <link>
-        /how-to-install-amazon-appstore-on-android-to-get-awesome-apps-for-free</link>
-        <guid isPermaLink="true">/how-to-install-amazon-appstore-on-android-to-get-awesome-apps-for-free</guid>
+        http://localhost:4000/how-to-install-amazon-appstore-on-android-to-get-awesome-apps-for-free</link>
+        <guid isPermaLink="true">http://localhost:4000/how-to-install-amazon-appstore-on-android-to-get-awesome-apps-for-free</guid>
       </item>
       
     
@@ -582,8 +582,8 @@
         
         <pubDate>Sun, 05 Aug 2012 10:49:00 +0530</pubDate>
         <link>
-        /how-to-access-folders-from-your-windows-pc-and-stream-videos-over-wifi-on-your-android</link>
-        <guid isPermaLink="true">/how-to-access-folders-from-your-windows-pc-and-stream-videos-over-wifi-on-your-android</guid>
+        http://localhost:4000/how-to-access-folders-from-your-windows-pc-and-stream-videos-over-wifi-on-your-android</link>
+        <guid isPermaLink="true">http://localhost:4000/how-to-access-folders-from-your-windows-pc-and-stream-videos-over-wifi-on-your-android</guid>
       </item>
       
     
@@ -595,8 +595,8 @@
         
         <pubDate>Wed, 01 Aug 2012 22:18:00 +0530</pubDate>
         <link>
-        /cost-of-being-batman-infographic</link>
-        <guid isPermaLink="true">/cost-of-being-batman-infographic</guid>
+        http://localhost:4000/cost-of-being-batman-infographic</link>
+        <guid isPermaLink="true">http://localhost:4000/cost-of-being-batman-infographic</guid>
       </item>
       
     
@@ -608,8 +608,8 @@
         
         <pubDate>Wed, 01 Aug 2012 21:42:00 +0530</pubDate>
         <link>
-        /5-cool-windows-command-prompt-tricks-for-getting-things-done-faster</link>
-        <guid isPermaLink="true">/5-cool-windows-command-prompt-tricks-for-getting-things-done-faster</guid>
+        http://localhost:4000/5-cool-windows-command-prompt-tricks-for-getting-things-done-faster</link>
+        <guid isPermaLink="true">http://localhost:4000/5-cool-windows-command-prompt-tricks-for-getting-things-done-faster</guid>
       </item>
       
     
@@ -621,8 +621,8 @@
         
         <pubDate>Wed, 01 Aug 2012 11:05:00 +0530</pubDate>
         <link>
-        /googles-new-search-calculator-to-help-you-with-your-arithmetic</link>
-        <guid isPermaLink="true">/googles-new-search-calculator-to-help-you-with-your-arithmetic</guid>
+        http://localhost:4000/googles-new-search-calculator-to-help-you-with-your-arithmetic</link>
+        <guid isPermaLink="true">http://localhost:4000/googles-new-search-calculator-to-help-you-with-your-arithmetic</guid>
       </item>
       
     
@@ -634,8 +634,8 @@
         
         <pubDate>Tue, 31 Jul 2012 21:33:00 +0530</pubDate>
         <link>
-        /how-to-change-boot-animation-in-windows</link>
-        <guid isPermaLink="true">/how-to-change-boot-animation-in-windows</guid>
+        http://localhost:4000/how-to-change-boot-animation-in-windows</link>
+        <guid isPermaLink="true">http://localhost:4000/how-to-change-boot-animation-in-windows</guid>
       </item>
       
     
@@ -647,8 +647,8 @@
         
         <pubDate>Sun, 29 Jul 2012 21:00:00 +0530</pubDate>
         <link>
-        /spam-alert-facebook-app-my-total-profile-views-today-spams-your-friends</link>
-        <guid isPermaLink="true">/spam-alert-facebook-app-my-total-profile-views-today-spams-your-friends</guid>
+        http://localhost:4000/spam-alert-facebook-app-my-total-profile-views-today-spams-your-friends</link>
+        <guid isPermaLink="true">http://localhost:4000/spam-alert-facebook-app-my-total-profile-views-today-spams-your-friends</guid>
       </item>
       
     
@@ -660,8 +660,8 @@
         
         <pubDate>Sun, 29 Jul 2012 20:27:00 +0530</pubDate>
         <link>
-        /what-is-clsid-key-guid-clsid-key-shortcut-list-for-windows</link>
-        <guid isPermaLink="true">/what-is-clsid-key-guid-clsid-key-shortcut-list-for-windows</guid>
+        http://localhost:4000/what-is-clsid-key-guid-clsid-key-shortcut-list-for-windows</link>
+        <guid isPermaLink="true">http://localhost:4000/what-is-clsid-key-guid-clsid-key-shortcut-list-for-windows</guid>
       </item>
       
     
@@ -673,8 +673,8 @@
         
         <pubDate>Sun, 29 Jul 2012 19:57:00 +0530</pubDate>
         <link>
-        /how-to-add-take-ownership-option-in-the-right-click-menu-in-windows</link>
-        <guid isPermaLink="true">/how-to-add-take-ownership-option-in-the-right-click-menu-in-windows</guid>
+        http://localhost:4000/how-to-add-take-ownership-option-in-the-right-click-menu-in-windows</link>
+        <guid isPermaLink="true">http://localhost:4000/how-to-add-take-ownership-option-in-the-right-click-menu-in-windows</guid>
       </item>
       
     
@@ -686,8 +686,8 @@
         
         <pubDate>Sun, 29 Jul 2012 10:52:00 +0530</pubDate>
         <link>
-        /jelly-bean-411-images-now-officially-available-for-download</link>
-        <guid isPermaLink="true">/jelly-bean-411-images-now-officially-available-for-download</guid>
+        http://localhost:4000/jelly-bean-411-images-now-officially-available-for-download</link>
+        <guid isPermaLink="true">http://localhost:4000/jelly-bean-411-images-now-officially-available-for-download</guid>
       </item>
       
     
@@ -699,8 +699,8 @@
         
         <pubDate>Sun, 29 Jul 2012 01:17:00 +0530</pubDate>
         <link>
-        /search-google-with-your-handwriting-on-your-smartphone</link>
-        <guid isPermaLink="true">/search-google-with-your-handwriting-on-your-smartphone</guid>
+        http://localhost:4000/search-google-with-your-handwriting-on-your-smartphone</link>
+        <guid isPermaLink="true">http://localhost:4000/search-google-with-your-handwriting-on-your-smartphone</guid>
       </item>
       
     
@@ -712,8 +712,8 @@
         
         <pubDate>Sat, 28 Jul 2012 17:37:00 +0530</pubDate>
         <link>
-        /google-launches-crazy-1000mbps-fiber-internet-today</link>
-        <guid isPermaLink="true">/google-launches-crazy-1000mbps-fiber-internet-today</guid>
+        http://localhost:4000/google-launches-crazy-1000mbps-fiber-internet-today</link>
+        <guid isPermaLink="true">http://localhost:4000/google-launches-crazy-1000mbps-fiber-internet-today</guid>
       </item>
       
     
@@ -725,8 +725,8 @@
         
         <pubDate>Sat, 28 Jul 2012 11:24:00 +0530</pubDate>
         <link>
-        /a-new-super-geeky-way-to-hide-important-folders-in-windows</link>
-        <guid isPermaLink="true">/a-new-super-geeky-way-to-hide-important-folders-in-windows</guid>
+        http://localhost:4000/a-new-super-geeky-way-to-hide-important-folders-in-windows</link>
+        <guid isPermaLink="true">http://localhost:4000/a-new-super-geeky-way-to-hide-important-folders-in-windows</guid>
       </item>
       
     
@@ -738,8 +738,8 @@
         
         <pubDate>Wed, 25 Jul 2012 22:10:00 +0530</pubDate>
         <link>
-        /how-to-hide-zip-file-inside-image-file</link>
-        <guid isPermaLink="true">/how-to-hide-zip-file-inside-image-file</guid>
+        http://localhost:4000/how-to-hide-zip-file-inside-image-file</link>
+        <guid isPermaLink="true">http://localhost:4000/how-to-hide-zip-file-inside-image-file</guid>
       </item>
       
     
@@ -751,8 +751,8 @@
         
         <pubDate>Mon, 23 Jul 2012 14:25:00 +0530</pubDate>
         <link>
-        /direct-youtube-downloader-downloads-whole-youtube-channels-and-videos-in-ultra-hd</link>
-        <guid isPermaLink="true">/direct-youtube-downloader-downloads-whole-youtube-channels-and-videos-in-ultra-hd</guid>
+        http://localhost:4000/direct-youtube-downloader-downloads-whole-youtube-channels-and-videos-in-ultra-hd</link>
+        <guid isPermaLink="true">http://localhost:4000/direct-youtube-downloader-downloads-whole-youtube-channels-and-videos-in-ultra-hd</guid>
       </item>
       
     
@@ -764,8 +764,8 @@
         
         <pubDate>Sun, 22 Jul 2012 21:47:00 +0530</pubDate>
         <link>
-        /what-is-this-svchostexe-and-why-is-it-running-in-background</link>
-        <guid isPermaLink="true">/what-is-this-svchostexe-and-why-is-it-running-in-background</guid>
+        http://localhost:4000/what-is-this-svchostexe-and-why-is-it-running-in-background</link>
+        <guid isPermaLink="true">http://localhost:4000/what-is-this-svchostexe-and-why-is-it-running-in-background</guid>
       </item>
       
     
@@ -777,8 +777,8 @@
         
         <pubDate>Sat, 14 Jul 2012 10:22:00 +0530</pubDate>
         <link>
-        /how-to-clear-messy-context-menu-in-windows-via-ccleaner</link>
-        <guid isPermaLink="true">/how-to-clear-messy-context-menu-in-windows-via-ccleaner</guid>
+        http://localhost:4000/how-to-clear-messy-context-menu-in-windows-via-ccleaner</link>
+        <guid isPermaLink="true">http://localhost:4000/how-to-clear-messy-context-menu-in-windows-via-ccleaner</guid>
       </item>
       
     
@@ -790,8 +790,8 @@
         
         <pubDate>Tue, 10 Jul 2012 17:47:00 +0530</pubDate>
         <link>
-        /how-to-crack-credit-card-code</link>
-        <guid isPermaLink="true">/how-to-crack-credit-card-code</guid>
+        http://localhost:4000/how-to-crack-credit-card-code</link>
+        <guid isPermaLink="true">http://localhost:4000/how-to-crack-credit-card-code</guid>
       </item>
       
     
@@ -803,8 +803,8 @@
         
         <pubDate>Tue, 10 Jul 2012 17:29:00 +0530</pubDate>
         <link>
-        /how-to-force-an-application-not-to-use-the-specific-internet-connection</link>
-        <guid isPermaLink="true">/how-to-force-an-application-not-to-use-the-specific-internet-connection</guid>
+        http://localhost:4000/how-to-force-an-application-not-to-use-the-specific-internet-connection</link>
+        <guid isPermaLink="true">http://localhost:4000/how-to-force-an-application-not-to-use-the-specific-internet-connection</guid>
       </item>
       
     
@@ -816,8 +816,8 @@
         
         <pubDate>Sun, 08 Jul 2012 10:20:00 +0530</pubDate>
         <link>
-        /check-your-dns-server-before-you-lose-your-internet-on-july-9</link>
-        <guid isPermaLink="true">/check-your-dns-server-before-you-lose-your-internet-on-july-9</guid>
+        http://localhost:4000/check-your-dns-server-before-you-lose-your-internet-on-july-9</link>
+        <guid isPermaLink="true">http://localhost:4000/check-your-dns-server-before-you-lose-your-internet-on-july-9</guid>
       </item>
       
     
@@ -829,8 +829,8 @@
         
         <pubDate>Sat, 07 Jul 2012 19:00:00 +0530</pubDate>
         <link>
-        /comparison-between-vpn-ssh-tunnel-which</link>
-        <guid isPermaLink="true">/comparison-between-vpn-ssh-tunnel-which</guid>
+        http://localhost:4000/comparison-between-vpn-ssh-tunnel-which</link>
+        <guid isPermaLink="true">http://localhost:4000/comparison-between-vpn-ssh-tunnel-which</guid>
       </item>
       
     
@@ -842,8 +842,8 @@
         
         <pubDate>Sat, 07 Jul 2012 10:44:00 +0530</pubDate>
         <link>
-        /how-to-create-custom-run-box-commands</link>
-        <guid isPermaLink="true">/how-to-create-custom-run-box-commands</guid>
+        http://localhost:4000/how-to-create-custom-run-box-commands</link>
+        <guid isPermaLink="true">http://localhost:4000/how-to-create-custom-run-box-commands</guid>
       </item>
       
     
@@ -855,8 +855,8 @@
         
         <pubDate>Tue, 03 Jul 2012 18:39:00 +0530</pubDate>
         <link>
-        /how-to-create-and-use-password-reset-disk-in-windows7</link>
-        <guid isPermaLink="true">/how-to-create-and-use-password-reset-disk-in-windows7</guid>
+        http://localhost:4000/how-to-create-and-use-password-reset-disk-in-windows7</link>
+        <guid isPermaLink="true">http://localhost:4000/how-to-create-and-use-password-reset-disk-in-windows7</guid>
       </item>
       
     
@@ -868,8 +868,8 @@
         
         <pubDate>Mon, 02 Jul 2012 00:40:00 +0530</pubDate>
         <link>
-        /use-pcs-internet-in-android-phone</link>
-        <guid isPermaLink="true">/use-pcs-internet-in-android-phone</guid>
+        http://localhost:4000/use-pcs-internet-in-android-phone</link>
+        <guid isPermaLink="true">http://localhost:4000/use-pcs-internet-in-android-phone</guid>
       </item>
       
     
@@ -881,8 +881,8 @@
         
         <pubDate>Fri, 29 Jun 2012 12:07:00 +0530</pubDate>
         <link>
-        /how-to-know-which-websites-are-tracking-you</link>
-        <guid isPermaLink="true">/how-to-know-which-websites-are-tracking-you</guid>
+        http://localhost:4000/how-to-know-which-websites-are-tracking-you</link>
+        <guid isPermaLink="true">http://localhost:4000/how-to-know-which-websites-are-tracking-you</guid>
       </item>
       
     
@@ -894,8 +894,8 @@
         
         <pubDate>Thu, 28 Jun 2012 11:14:00 +0530</pubDate>
         <link>
-        /google-announces-android-41-jelly-bean</link>
-        <guid isPermaLink="true">/google-announces-android-41-jelly-bean</guid>
+        http://localhost:4000/google-announces-android-41-jelly-bean</link>
+        <guid isPermaLink="true">http://localhost:4000/google-announces-android-41-jelly-bean</guid>
       </item>
       
     
@@ -907,8 +907,8 @@
         
         <pubDate>Wed, 27 Jun 2012 11:59:00 +0530</pubDate>
         <link>
-        /what-are-public-private-ip-addresses</link>
-        <guid isPermaLink="true">/what-are-public-private-ip-addresses</guid>
+        http://localhost:4000/what-are-public-private-ip-addresses</link>
+        <guid isPermaLink="true">http://localhost:4000/what-are-public-private-ip-addresses</guid>
       </item>
       
     
@@ -920,8 +920,8 @@
         
         <pubDate>Tue, 26 Jun 2012 11:08:00 +0530</pubDate>
         <link>
-        /wirelessly-operate-your-android-from</link>
-        <guid isPermaLink="true">/wirelessly-operate-your-android-from</guid>
+        http://localhost:4000/wirelessly-operate-your-android-from</link>
+        <guid isPermaLink="true">http://localhost:4000/wirelessly-operate-your-android-from</guid>
       </item>
       
     
@@ -933,8 +933,8 @@
         
         <pubDate>Wed, 20 Jun 2012 11:54:00 +0530</pubDate>
         <link>
-        /diskdigger-lets-you-to-recover-deleted</link>
-        <guid isPermaLink="true">/diskdigger-lets-you-to-recover-deleted</guid>
+        http://localhost:4000/diskdigger-lets-you-to-recover-deleted</link>
+        <guid isPermaLink="true">http://localhost:4000/diskdigger-lets-you-to-recover-deleted</guid>
       </item>
       
     
@@ -946,8 +946,8 @@
         
         <pubDate>Wed, 06 Jun 2012 17:46:00 +0530</pubDate>
         <link>
-        /how-transition-from-ipv4-to-ipv6-going</link>
-        <guid isPermaLink="true">/how-transition-from-ipv4-to-ipv6-going</guid>
+        http://localhost:4000/how-transition-from-ipv4-to-ipv6-going</link>
+        <guid isPermaLink="true">http://localhost:4000/how-transition-from-ipv4-to-ipv6-going</guid>
       </item>
       
     
@@ -959,8 +959,8 @@
         
         <pubDate>Sun, 11 Mar 2012 10:29:00 +0530</pubDate>
         <link>
-        /how-big-is-internethere-is-answer</link>
-        <guid isPermaLink="true">/how-big-is-internethere-is-answer</guid>
+        http://localhost:4000/how-big-is-internethere-is-answer</link>
+        <guid isPermaLink="true">http://localhost:4000/how-big-is-internethere-is-answer</guid>
       </item>
       
     
@@ -972,8 +972,8 @@
         
         <pubDate>Thu, 08 Mar 2012 18:30:00 +0530</pubDate>
         <link>
-        /how-to-update-windows-or-antivirus</link>
-        <guid isPermaLink="true">/how-to-update-windows-or-antivirus</guid>
+        http://localhost:4000/how-to-update-windows-or-antivirus</link>
+        <guid isPermaLink="true">http://localhost:4000/how-to-update-windows-or-antivirus</guid>
       </item>
       
     
@@ -985,8 +985,8 @@
         
         <pubDate>Sun, 22 Jan 2012 11:07:00 +0530</pubDate>
         <link>
-        /pc-tricks-6-super-geeky-ways-to-open</link>
-        <guid isPermaLink="true">/pc-tricks-6-super-geeky-ways-to-open</guid>
+        http://localhost:4000/pc-tricks-6-super-geeky-ways-to-open</link>
+        <guid isPermaLink="true">http://localhost:4000/pc-tricks-6-super-geeky-ways-to-open</guid>
       </item>
       
     
@@ -998,8 +998,8 @@
         
         <pubDate>Sat, 21 Jan 2012 18:33:00 +0530</pubDate>
         <link>
-        /how-to-re-install-windows-without-any</link>
-        <guid isPermaLink="true">/how-to-re-install-windows-without-any</guid>
+        http://localhost:4000/how-to-re-install-windows-without-any</link>
+        <guid isPermaLink="true">http://localhost:4000/how-to-re-install-windows-without-any</guid>
       </item>
       
     
@@ -1011,8 +1011,8 @@
         
         <pubDate>Thu, 19 Jan 2012 20:58:00 +0530</pubDate>
         <link>
-        /how-to-solve-conflict-between-google</link>
-        <guid isPermaLink="true">/how-to-solve-conflict-between-google</guid>
+        http://localhost:4000/how-to-solve-conflict-between-google</link>
+        <guid isPermaLink="true">http://localhost:4000/how-to-solve-conflict-between-google</guid>
       </item>
       
     
@@ -1024,8 +1024,8 @@
         
         <pubDate>Thu, 12 Jan 2012 10:35:00 +0530</pubDate>
         <link>
-        /infographic-enterprise-mobility-apps</link>
-        <guid isPermaLink="true">/infographic-enterprise-mobility-apps</guid>
+        http://localhost:4000/infographic-enterprise-mobility-apps</link>
+        <guid isPermaLink="true">http://localhost:4000/infographic-enterprise-mobility-apps</guid>
       </item>
       
     
@@ -1037,8 +1037,8 @@
         
         <pubDate>Mon, 02 Jan 2012 13:06:00 +0530</pubDate>
         <link>
-        /solved-mobile-partner-dashboard</link>
-        <guid isPermaLink="true">/solved-mobile-partner-dashboard</guid>
+        http://localhost:4000/solved-mobile-partner-dashboard</link>
+        <guid isPermaLink="true">http://localhost:4000/solved-mobile-partner-dashboard</guid>
       </item>
       
     
@@ -1050,8 +1050,8 @@
         
         <pubDate>Sat, 31 Dec 2011 12:37:00 +0530</pubDate>
         <link>
-        /how-to-install-ubuntu-1110-or-any-other</link>
-        <guid isPermaLink="true">/how-to-install-ubuntu-1110-or-any-other</guid>
+        http://localhost:4000/how-to-install-ubuntu-1110-or-any-other</link>
+        <guid isPermaLink="true">http://localhost:4000/how-to-install-ubuntu-1110-or-any-other</guid>
       </item>
       
     
@@ -1063,8 +1063,8 @@
         
         <pubDate>Fri, 30 Dec 2011 14:08:00 +0530</pubDate>
         <link>
-        /how-to-create-your-own-proxy-server-to</link>
-        <guid isPermaLink="true">/how-to-create-your-own-proxy-server-to</guid>
+        http://localhost:4000/how-to-create-your-own-proxy-server-to</link>
+        <guid isPermaLink="true">http://localhost:4000/how-to-create-your-own-proxy-server-to</guid>
       </item>
       
     
@@ -1076,8 +1076,8 @@
         
         <pubDate>Thu, 29 Dec 2011 20:28:00 +0530</pubDate>
         <link>
-        /enable-administrator-account-on-windows</link>
-        <guid isPermaLink="true">/enable-administrator-account-on-windows</guid>
+        http://localhost:4000/enable-administrator-account-on-windows</link>
+        <guid isPermaLink="true">http://localhost:4000/enable-administrator-account-on-windows</guid>
       </item>
       
     
@@ -1089,8 +1089,8 @@
         
         <pubDate>Thu, 29 Dec 2011 13:47:00 +0530</pubDate>
         <link>
-        /how-to-see-which-websites-your-computer</link>
-        <guid isPermaLink="true">/how-to-see-which-websites-your-computer</guid>
+        http://localhost:4000/how-to-see-which-websites-your-computer</link>
+        <guid isPermaLink="true">http://localhost:4000/how-to-see-which-websites-your-computer</guid>
       </item>
       
     
@@ -1102,8 +1102,8 @@
         
         <pubDate>Mon, 31 Oct 2011 12:08:00 +0530</pubDate>
         <link>
-        /how-to-disable-hibernate-mode-in</link>
-        <guid isPermaLink="true">/how-to-disable-hibernate-mode-in</guid>
+        http://localhost:4000/how-to-disable-hibernate-mode-in</link>
+        <guid isPermaLink="true">http://localhost:4000/how-to-disable-hibernate-mode-in</guid>
       </item>
       
     
@@ -1115,8 +1115,8 @@
         
         <pubDate>Wed, 26 Oct 2011 13:33:00 +0530</pubDate>
         <link>
-        /awesome-windows-tricks-to-prank-your</link>
-        <guid isPermaLink="true">/awesome-windows-tricks-to-prank-your</guid>
+        http://localhost:4000/awesome-windows-tricks-to-prank-your</link>
+        <guid isPermaLink="true">http://localhost:4000/awesome-windows-tricks-to-prank-your</guid>
       </item>
       
     
@@ -1128,8 +1128,8 @@
         
         <pubDate>Tue, 11 Oct 2011 12:56:00 +0530</pubDate>
         <link>
-        /all-you-want-to-know-about-hard-drive</link>
-        <guid isPermaLink="true">/all-you-want-to-know-about-hard-drive</guid>
+        http://localhost:4000/all-you-want-to-know-about-hard-drive</link>
+        <guid isPermaLink="true">http://localhost:4000/all-you-want-to-know-about-hard-drive</guid>
       </item>
       
     
@@ -1141,8 +1141,8 @@
         
         <pubDate>Tue, 11 Oct 2011 12:56:00 +0530</pubDate>
         <link>
-        /how-to-determine-sizes-of-partitions-of</link>
-        <guid isPermaLink="true">/how-to-determine-sizes-of-partitions-of</guid>
+        http://localhost:4000/how-to-determine-sizes-of-partitions-of</link>
+        <guid isPermaLink="true">http://localhost:4000/how-to-determine-sizes-of-partitions-of</guid>
       </item>
       
     
@@ -1154,8 +1154,8 @@
         
         <pubDate>Tue, 11 Oct 2011 12:55:00 +0530</pubDate>
         <link>
-        /easeus-partition-master-is-great-free</link>
-        <guid isPermaLink="true">/easeus-partition-master-is-great-free</guid>
+        http://localhost:4000/easeus-partition-master-is-great-free</link>
+        <guid isPermaLink="true">http://localhost:4000/easeus-partition-master-is-great-free</guid>
       </item>
       
     
@@ -1167,8 +1167,8 @@
         
         <pubDate>Tue, 11 Oct 2011 12:35:00 +0530</pubDate>
         <link>
-        /how-to-partition-hard-disk-drive-in</link>
-        <guid isPermaLink="true">/how-to-partition-hard-disk-drive-in</guid>
+        http://localhost:4000/how-to-partition-hard-disk-drive-in</link>
+        <guid isPermaLink="true">http://localhost:4000/how-to-partition-hard-disk-drive-in</guid>
       </item>
       
     
@@ -1180,8 +1180,8 @@
         
         <pubDate>Tue, 04 Oct 2011 11:39:00 +0530</pubDate>
         <link>
-        /facebook-ready-to-rock-web-with-new</link>
-        <guid isPermaLink="true">/facebook-ready-to-rock-web-with-new</guid>
+        http://localhost:4000/facebook-ready-to-rock-web-with-new</link>
+        <guid isPermaLink="true">http://localhost:4000/facebook-ready-to-rock-web-with-new</guid>
       </item>
       
     
@@ -1193,8 +1193,8 @@
         
         <pubDate>Fri, 09 Sep 2011 11:37:00 +0530</pubDate>
         <link>
-        /what-facebook-is-changing-to-compete</link>
-        <guid isPermaLink="true">/what-facebook-is-changing-to-compete</guid>
+        http://localhost:4000/what-facebook-is-changing-to-compete</link>
+        <guid isPermaLink="true">http://localhost:4000/what-facebook-is-changing-to-compete</guid>
       </item>
       
     
@@ -1206,8 +1206,8 @@
         
         <pubDate>Wed, 07 Sep 2011 12:40:00 +0530</pubDate>
         <link>
-        /gizmo-gallery-smart-way-to-charge-up</link>
-        <guid isPermaLink="true">/gizmo-gallery-smart-way-to-charge-up</guid>
+        http://localhost:4000/gizmo-gallery-smart-way-to-charge-up</link>
+        <guid isPermaLink="true">http://localhost:4000/gizmo-gallery-smart-way-to-charge-up</guid>
       </item>
       
     
@@ -1219,8 +1219,8 @@
         
         <pubDate>Sun, 04 Sep 2011 18:22:00 +0530</pubDate>
         <link>
-        /5-simple-ways-to-get-your-lost-or</link>
-        <guid isPermaLink="true">/5-simple-ways-to-get-your-lost-or</guid>
+        http://localhost:4000/5-simple-ways-to-get-your-lost-or</link>
+        <guid isPermaLink="true">http://localhost:4000/5-simple-ways-to-get-your-lost-or</guid>
       </item>
       
     
@@ -1232,8 +1232,8 @@
         
         <pubDate>Fri, 02 Sep 2011 00:16:00 +0530</pubDate>
         <link>
-        /awesome-dolphin-browser-is-now</link>
-        <guid isPermaLink="true">/awesome-dolphin-browser-is-now</guid>
+        http://localhost:4000/awesome-dolphin-browser-is-now</link>
+        <guid isPermaLink="true">http://localhost:4000/awesome-dolphin-browser-is-now</guid>
       </item>
       
     
@@ -1245,8 +1245,8 @@
         
         <pubDate>Thu, 01 Sep 2011 19:27:00 +0530</pubDate>
         <link>
-        /time-spent-by-visitors-on-google</link>
-        <guid isPermaLink="true">/time-spent-by-visitors-on-google</guid>
+        http://localhost:4000/time-spent-by-visitors-on-google</link>
+        <guid isPermaLink="true">http://localhost:4000/time-spent-by-visitors-on-google</guid>
       </item>
       
     
@@ -1258,8 +1258,8 @@
         
         <pubDate>Wed, 31 Aug 2011 12:33:00 +0530</pubDate>
         <link>
-        /how-to-install-android-on-portable</link>
-        <guid isPermaLink="true">/how-to-install-android-on-portable</guid>
+        http://localhost:4000/how-to-install-android-on-portable</link>
+        <guid isPermaLink="true">http://localhost:4000/how-to-install-android-on-portable</guid>
       </item>
       
     
@@ -1271,8 +1271,8 @@
         
         <pubDate>Tue, 30 Aug 2011 11:41:00 +0530</pubDate>
         <link>
-        /how-to-run-android-on-your-windows-pc</link>
-        <guid isPermaLink="true">/how-to-run-android-on-your-windows-pc</guid>
+        http://localhost:4000/how-to-run-android-on-your-windows-pc</link>
+        <guid isPermaLink="true">http://localhost:4000/how-to-run-android-on-your-windows-pc</guid>
       </item>
       
     
@@ -1284,8 +1284,8 @@
         
         <pubDate>Sat, 27 Aug 2011 17:04:00 +0530</pubDate>
         <link>
-        /get-fast-powerful-and-xp-style-search</link>
-        <guid isPermaLink="true">/get-fast-powerful-and-xp-style-search</guid>
+        http://localhost:4000/get-fast-powerful-and-xp-style-search</link>
+        <guid isPermaLink="true">http://localhost:4000/get-fast-powerful-and-xp-style-search</guid>
       </item>
       
     
@@ -1297,8 +1297,8 @@
         
         <pubDate>Wed, 24 Aug 2011 12:21:00 +0530</pubDate>
         <link>
-        /stupid-pc-trick-how-to-create-fake</link>
-        <guid isPermaLink="true">/stupid-pc-trick-how-to-create-fake</guid>
+        http://localhost:4000/stupid-pc-trick-how-to-create-fake</link>
+        <guid isPermaLink="true">http://localhost:4000/stupid-pc-trick-how-to-create-fake</guid>
       </item>
       
     
@@ -1310,8 +1310,8 @@
         
         <pubDate>Mon, 22 Aug 2011 14:31:00 +0530</pubDate>
         <link>
-        /socialize-your-desktop-with-fresh</link>
-        <guid isPermaLink="true">/socialize-your-desktop-with-fresh</guid>
+        http://localhost:4000/socialize-your-desktop-with-fresh</link>
+        <guid isPermaLink="true">http://localhost:4000/socialize-your-desktop-with-fresh</guid>
       </item>
       
     
@@ -1323,8 +1323,8 @@
         
         <pubDate>Mon, 22 Aug 2011 11:40:00 +0530</pubDate>
         <link>
-        /how-computer-hard-drive-actually-works</link>
-        <guid isPermaLink="true">/how-computer-hard-drive-actually-works</guid>
+        http://localhost:4000/how-computer-hard-drive-actually-works</link>
+        <guid isPermaLink="true">http://localhost:4000/how-computer-hard-drive-actually-works</guid>
       </item>
       
     
@@ -1336,8 +1336,8 @@
         
         <pubDate>Sun, 21 Aug 2011 23:24:00 +0530</pubDate>
         <link>
-        /how-to-disable-or-enable-cddvd-rom</link>
-        <guid isPermaLink="true">/how-to-disable-or-enable-cddvd-rom</guid>
+        http://localhost:4000/how-to-disable-or-enable-cddvd-rom</link>
+        <guid isPermaLink="true">http://localhost:4000/how-to-disable-or-enable-cddvd-rom</guid>
       </item>
       
     
@@ -1349,8 +1349,8 @@
         
         <pubDate>Thu, 18 Aug 2011 18:48:00 +0530</pubDate>
         <link>
-        /increase-browsing-speed-of-mozilla</link>
-        <guid isPermaLink="true">/increase-browsing-speed-of-mozilla</guid>
+        http://localhost:4000/increase-browsing-speed-of-mozilla</link>
+        <guid isPermaLink="true">http://localhost:4000/increase-browsing-speed-of-mozilla</guid>
       </item>
       
     
@@ -1362,8 +1362,8 @@
         
         <pubDate>Thu, 18 Aug 2011 12:13:00 +0530</pubDate>
         <link>
-        /extension-use-facebook-chat-bully-to</link>
-        <guid isPermaLink="true">/extension-use-facebook-chat-bully-to</guid>
+        http://localhost:4000/extension-use-facebook-chat-bully-to</link>
+        <guid isPermaLink="true">http://localhost:4000/extension-use-facebook-chat-bully-to</guid>
       </item>
       
     
@@ -1375,8 +1375,8 @@
         
         <pubDate>Tue, 16 Aug 2011 00:31:00 +0530</pubDate>
         <link>
-        /infographic-android-story-history-of</link>
-        <guid isPermaLink="true">/infographic-android-story-history-of</guid>
+        http://localhost:4000/infographic-android-story-history-of</link>
+        <guid isPermaLink="true">http://localhost:4000/infographic-android-story-history-of</guid>
       </item>
       
     
@@ -1388,8 +1388,8 @@
         
         <pubDate>Tue, 16 Aug 2011 00:16:00 +0530</pubDate>
         <link>
-        /google-acquires-motorola-mobility-what</link>
-        <guid isPermaLink="true">/google-acquires-motorola-mobility-what</guid>
+        http://localhost:4000/google-acquires-motorola-mobility-what</link>
+        <guid isPermaLink="true">http://localhost:4000/google-acquires-motorola-mobility-what</guid>
       </item>
       
     
@@ -1401,8 +1401,8 @@
         
         <pubDate>Mon, 15 Aug 2011 11:23:00 +0530</pubDate>
         <link>
-        /how-to-change-dns-servers-for-fast</link>
-        <guid isPermaLink="true">/how-to-change-dns-servers-for-fast</guid>
+        http://localhost:4000/how-to-change-dns-servers-for-fast</link>
+        <guid isPermaLink="true">http://localhost:4000/how-to-change-dns-servers-for-fast</guid>
       </item>
       
     
@@ -1414,8 +1414,8 @@
         
         <pubDate>Wed, 10 Aug 2011 12:54:00 +0530</pubDate>
         <link>
-        /how-to-install-turbo-c-in-windows-7</link>
-        <guid isPermaLink="true">/how-to-install-turbo-c-in-windows-7</guid>
+        http://localhost:4000/how-to-install-turbo-c-in-windows-7</link>
+        <guid isPermaLink="true">http://localhost:4000/how-to-install-turbo-c-in-windows-7</guid>
       </item>
       
     
@@ -1427,8 +1427,8 @@
         
         <pubDate>Wed, 10 Aug 2011 00:36:00 +0530</pubDate>
         <link>
-        /try-google-namebench-for-faster</link>
-        <guid isPermaLink="true">/try-google-namebench-for-faster</guid>
+        http://localhost:4000/try-google-namebench-for-faster</link>
+        <guid isPermaLink="true">http://localhost:4000/try-google-namebench-for-faster</guid>
       </item>
       
     
@@ -1440,8 +1440,8 @@
         
         <pubDate>Mon, 08 Aug 2011 23:56:00 +0530</pubDate>
         <link>
-        /tweak-your-internet-for-good-browsing</link>
-        <guid isPermaLink="true">/tweak-your-internet-for-good-browsing</guid>
+        http://localhost:4000/tweak-your-internet-for-good-browsing</link>
+        <guid isPermaLink="true">http://localhost:4000/tweak-your-internet-for-good-browsing</guid>
       </item>
       
     
@@ -1453,8 +1453,8 @@
         
         <pubDate>Sat, 06 Aug 2011 10:37:00 +0530</pubDate>
         <link>
-        /extension-watch-facebook-stream-inside</link>
-        <guid isPermaLink="true">/extension-watch-facebook-stream-inside</guid>
+        http://localhost:4000/extension-watch-facebook-stream-inside</link>
+        <guid isPermaLink="true">http://localhost:4000/extension-watch-facebook-stream-inside</guid>
       </item>
       
     
@@ -1466,8 +1466,8 @@
         
         <pubDate>Fri, 05 Aug 2011 18:37:00 +0530</pubDate>
         <link>
-        /how-to-disable-programs-run-at-startup</link>
-        <guid isPermaLink="true">/how-to-disable-programs-run-at-startup</guid>
+        http://localhost:4000/how-to-disable-programs-run-at-startup</link>
+        <guid isPermaLink="true">http://localhost:4000/how-to-disable-programs-run-at-startup</guid>
       </item>
       
     
@@ -1479,8 +1479,8 @@
         
         <pubDate>Fri, 05 Aug 2011 10:40:00 +0530</pubDate>
         <link>
-        /software-hide-your-important-files-and</link>
-        <guid isPermaLink="true">/software-hide-your-important-files-and</guid>
+        http://localhost:4000/software-hide-your-important-files-and</link>
+        <guid isPermaLink="true">http://localhost:4000/software-hide-your-important-files-and</guid>
       </item>
       
     
@@ -1492,8 +1492,8 @@
         
         <pubDate>Wed, 03 Aug 2011 00:22:00 +0530</pubDate>
         <link>
-        /heal-your-pc-from-crashes-and-increase</link>
-        <guid isPermaLink="true">/heal-your-pc-from-crashes-and-increase</guid>
+        http://localhost:4000/heal-your-pc-from-crashes-and-increase</link>
+        <guid isPermaLink="true">http://localhost:4000/heal-your-pc-from-crashes-and-increase</guid>
       </item>
       
     
@@ -1505,8 +1505,8 @@
         
         <pubDate>Sun, 31 Jul 2011 19:53:00 +0530</pubDate>
         <link>
-        /software-copy-your-files-fast-and</link>
-        <guid isPermaLink="true">/software-copy-your-files-fast-and</guid>
+        http://localhost:4000/software-copy-your-files-fast-and</link>
+        <guid isPermaLink="true">http://localhost:4000/software-copy-your-files-fast-and</guid>
       </item>
       
     
@@ -1518,8 +1518,8 @@
         
         <pubDate>Sun, 31 Jul 2011 10:13:00 +0530</pubDate>
         <link>
-        /how-to-recover-administrator-login</link>
-        <guid isPermaLink="true">/how-to-recover-administrator-login</guid>
+        http://localhost:4000/how-to-recover-administrator-login</link>
+        <guid isPermaLink="true">http://localhost:4000/how-to-recover-administrator-login</guid>
       </item>
       
     
@@ -1531,8 +1531,8 @@
         
         <pubDate>Thu, 28 Jul 2011 18:21:00 +0530</pubDate>
         <link>
-        /software-recover-deleted-files-with</link>
-        <guid isPermaLink="true">/software-recover-deleted-files-with</guid>
+        http://localhost:4000/software-recover-deleted-files-with</link>
+        <guid isPermaLink="true">http://localhost:4000/software-recover-deleted-files-with</guid>
       </item>
       
     
@@ -1544,8 +1544,8 @@
         
         <pubDate>Thu, 28 Jul 2011 00:55:00 +0530</pubDate>
         <link>
-        /infographic-have-we-found-ourselves-in</link>
-        <guid isPermaLink="true">/infographic-have-we-found-ourselves-in</guid>
+        http://localhost:4000/infographic-have-we-found-ourselves-in</link>
+        <guid isPermaLink="true">http://localhost:4000/infographic-have-we-found-ourselves-in</guid>
       </item>
       
     
@@ -1557,8 +1557,8 @@
         
         <pubDate>Wed, 27 Jul 2011 18:17:00 +0530</pubDate>
         <link>
-        /how-to-recover-unsaved-files-from</link>
-        <guid isPermaLink="true">/how-to-recover-unsaved-files-from</guid>
+        http://localhost:4000/how-to-recover-unsaved-files-from</link>
+        <guid isPermaLink="true">http://localhost:4000/how-to-recover-unsaved-files-from</guid>
       </item>
       
     
@@ -1570,8 +1570,8 @@
         
         <pubDate>Tue, 26 Jul 2011 13:27:00 +0530</pubDate>
         <link>
-        /preview-google-tv-where-television</link>
-        <guid isPermaLink="true">/preview-google-tv-where-television</guid>
+        http://localhost:4000/preview-google-tv-where-television</link>
+        <guid isPermaLink="true">http://localhost:4000/preview-google-tv-where-television</guid>
       </item>
       
     
@@ -1583,8 +1583,8 @@
         
         <pubDate>Mon, 25 Jul 2011 12:59:00 +0530</pubDate>
         <link>
-        /convert-scanned-document-into-text</link>
-        <guid isPermaLink="true">/convert-scanned-document-into-text</guid>
+        http://localhost:4000/convert-scanned-document-into-text</link>
+        <guid isPermaLink="true">http://localhost:4000/convert-scanned-document-into-text</guid>
       </item>
       
     
@@ -1596,8 +1596,8 @@
         
         <pubDate>Sun, 24 Jul 2011 11:18:00 +0530</pubDate>
         <link>
-        /how-to-download-your-facebook-profile</link>
-        <guid isPermaLink="true">/how-to-download-your-facebook-profile</guid>
+        http://localhost:4000/how-to-download-your-facebook-profile</link>
+        <guid isPermaLink="true">http://localhost:4000/how-to-download-your-facebook-profile</guid>
       </item>
       
     
@@ -1609,8 +1609,8 @@
         
         <pubDate>Sat, 23 Jul 2011 10:28:00 +0530</pubDate>
         <link>
-        /google-gathers-steam-about-20-million</link>
-        <guid isPermaLink="true">/google-gathers-steam-about-20-million</guid>
+        http://localhost:4000/google-gathers-steam-about-20-million</link>
+        <guid isPermaLink="true">http://localhost:4000/google-gathers-steam-about-20-million</guid>
       </item>
       
     
@@ -1622,8 +1622,8 @@
         
         <pubDate>Fri, 22 Jul 2011 18:15:00 +0530</pubDate>
         <link>
-        /google-set-to-wind-down-google-labs</link>
-        <guid isPermaLink="true">/google-set-to-wind-down-google-labs</guid>
+        http://localhost:4000/google-set-to-wind-down-google-labs</link>
+        <guid isPermaLink="true">http://localhost:4000/google-set-to-wind-down-google-labs</guid>
       </item>
       
     
@@ -1635,8 +1635,8 @@
         
         <pubDate>Fri, 22 Jul 2011 13:08:00 +0530</pubDate>
         <link>
-        /how-to-disable-cd-and-usb-flash-drives</link>
-        <guid isPermaLink="true">/how-to-disable-cd-and-usb-flash-drives</guid>
+        http://localhost:4000/how-to-disable-cd-and-usb-flash-drives</link>
+        <guid isPermaLink="true">http://localhost:4000/how-to-disable-cd-and-usb-flash-drives</guid>
       </item>
       
     
@@ -1648,8 +1648,8 @@
         
         <pubDate>Thu, 21 Jul 2011 18:19:00 +0530</pubDate>
         <link>
-        /how-to-disable-history-button-in</link>
-        <guid isPermaLink="true">/how-to-disable-history-button-in</guid>
+        http://localhost:4000/how-to-disable-history-button-in</link>
+        <guid isPermaLink="true">http://localhost:4000/how-to-disable-history-button-in</guid>
       </item>
       
     
@@ -1661,8 +1661,8 @@
         
         <pubDate>Thu, 21 Jul 2011 11:35:00 +0530</pubDate>
         <link>
-        /how-to-reset-forgotten-password-in</link>
-        <guid isPermaLink="true">/how-to-reset-forgotten-password-in</guid>
+        http://localhost:4000/how-to-reset-forgotten-password-in</link>
+        <guid isPermaLink="true">http://localhost:4000/how-to-reset-forgotten-password-in</guid>
       </item>
       
     
@@ -1674,8 +1674,8 @@
         
         <pubDate>Wed, 20 Jul 2011 10:36:00 +0530</pubDate>
         <link>
-        /how-to-reset-nokia-s40-s60-v3-mobile</link>
-        <guid isPermaLink="true">/how-to-reset-nokia-s40-s60-v3-mobile</guid>
+        http://localhost:4000/how-to-reset-nokia-s40-s60-v3-mobile</link>
+        <guid isPermaLink="true">http://localhost:4000/how-to-reset-nokia-s40-s60-v3-mobile</guid>
       </item>
       
     
@@ -1687,8 +1687,8 @@
         
         <pubDate>Tue, 19 Jul 2011 18:01:00 +0530</pubDate>
         <link>
-        /google-badges-for-news-readers-brief</link>
-        <guid isPermaLink="true">/google-badges-for-news-readers-brief</guid>
+        http://localhost:4000/google-badges-for-news-readers-brief</link>
+        <guid isPermaLink="true">http://localhost:4000/google-badges-for-news-readers-brief</guid>
       </item>
       
     
@@ -1700,8 +1700,8 @@
         
         <pubDate>Tue, 19 Jul 2011 12:19:00 +0530</pubDate>
         <link>
-        /emails-get-snappier-with-shortmail</link>
-        <guid isPermaLink="true">/emails-get-snappier-with-shortmail</guid>
+        http://localhost:4000/emails-get-snappier-with-shortmail</link>
+        <guid isPermaLink="true">http://localhost:4000/emails-get-snappier-with-shortmail</guid>
       </item>
       
     
@@ -1713,8 +1713,8 @@
         
         <pubDate>Tue, 19 Jul 2011 11:32:00 +0530</pubDate>
         <link>
-        /hello-world</link>
-        <guid isPermaLink="true">/hello-world</guid>
+        http://localhost:4000/hello-world</link>
+        <guid isPermaLink="true">http://localhost:4000/hello-world</guid>
       </item>
       
     
@@ -1728,8 +1728,8 @@
         
         <pubDate>Wed, 28 Aug 1963 10:18:00 +0000</pubDate>
         <link>
-        /i-have-a-dream</link>
-        <guid isPermaLink="true">/i-have-a-dream</guid>
+        http://localhost:4000/i-have-a-dream</link>
+        <guid isPermaLink="true">http://localhost:4000/i-have-a-dream</guid>
       </item>
       
     
@@ -1743,8 +1743,8 @@
         
         <pubDate>Sun, 12 Dec 1948 10:18:00 +0000</pubDate>
         <link>
-        /the-purpose-of-education</link>
-        <guid isPermaLink="true">/the-purpose-of-education</guid>
+        http://localhost:4000/the-purpose-of-education</link>
+        <guid isPermaLink="true">http://localhost:4000/the-purpose-of-education</guid>
       </item>
       
     
@@ -1758,8 +1758,8 @@
         
         <pubDate>Wed, 24 Jul 1912 10:18:00 +0000</pubDate>
         <link>
-        /out-to-sea</link>
-        <guid isPermaLink="true">/out-to-sea</guid>
+        http://localhost:4000/out-to-sea</link>
+        <guid isPermaLink="true">http://localhost:4000/out-to-sea</guid>
       </item>
       
     
@@ -1775,8 +1775,8 @@ But the black kitten had been finished with earlier in the afternoon, and so, wh
         
         <pubDate>Sat, 18 Mar 1871 10:18:00 +0000</pubDate>
         <link>
-        /looking-glass-house</link>
-        <guid isPermaLink="true">/looking-glass-house</guid>
+        http://localhost:4000/looking-glass-house</link>
+        <guid isPermaLink="true">http://localhost:4000/looking-glass-house</guid>
       </item>
       
     
@@ -1790,8 +1790,8 @@ But the black kitten had been finished with earlier in the afternoon, and so, wh
         
         <pubDate>Sun, 26 Nov 1865 10:18:00 +0000</pubDate>
         <link>
-        /down-the-rabbit-hole</link>
-        <guid isPermaLink="true">/down-the-rabbit-hole</guid>
+        http://localhost:4000/down-the-rabbit-hole</link>
+        <guid isPermaLink="true">http://localhost:4000/down-the-rabbit-hole</guid>
       </item>
       
     
@@ -1805,8 +1805,8 @@ But the black kitten had been finished with earlier in the afternoon, and so, wh
         
         <pubDate>Thu, 19 Nov 1863 10:18:00 +0000</pubDate>
         <link>
-        /gettysburg-address</link>
-        <guid isPermaLink="true">/gettysburg-address</guid>
+        http://localhost:4000/gettysburg-address</link>
+        <guid isPermaLink="true">http://localhost:4000/gettysburg-address</guid>
       </item>
       
     

@@ -3,9 +3,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
    
-      <title>/TechnoTravel-in/</title>
+      <title>http://localhost:4000/TechnoTravel-in/</title>
    
-   <link>/TechnoTravel-in/</link>
+   <link>http://localhost:4000/TechnoTravel-in/</link>
    <description>The daily source of digital inspirations</description>
    <language>en-in</language>
    
@@ -15,21 +15,21 @@
    <description>
    <![CDATA[ The daily source of digital inspirations ]]>
    </description>
-   <link>/TechnoTravel-in/</link>
+   <link>http://localhost:4000/TechnoTravel-in/</link>
    <image>
-   <url>/TechnoTravel-in/assets/images/favicon.ico</url>
+   <url>http://localhost:4000/TechnoTravel-in/assets/images/favicon.ico</url>
    <title>TechnoTravel.in</title>
-   <link>/TechnoTravel-in/</link>
+   <link>http://localhost:4000/TechnoTravel-in/</link>
    </image>
    <generator>Jekyll 3.6.2</generator>
    <lastBuildDate></lastBuildDate>
-   <atom:link href="/TechnoTravel-in/rss.xml" rel="self" type="application/rss+xml"/>
+   <atom:link href="http://localhost:4000/TechnoTravel-in/rss.xml" rel="self" type="application/rss+xml"/>
    <ttl>60</ttl>
    <atom:link href="rss" rel="self" type="application/rss+xml" />
    
 	<item>
 	  <title>Welcome to Ghost</title>
-	  <link>/TechnoTravel-in/welcome</link>
+	  <link>http://localhost:4000/TechnoTravel-in/welcome</link>
 		
 				
 		
@@ -50,7 +50,7 @@
 				
 		
 	  <pubDate>2017-07-27T15:30:00+05:30</pubDate>
-	  <guid>/TechnoTravel-in/welcome</guid>
+	  <guid>http://localhost:4000/TechnoTravel-in/welcome</guid>
 	  <description><![CDATA[
 	     <p>Hey! Welcome to Ghost, it’s great to have you :)</p>
 
@@ -74,7 +74,7 @@
 
 	<item>
 	  <title>Using the Ghost editor</title>
-	  <link>/TechnoTravel-in/the-editor</link>
+	  <link>http://localhost:4000/TechnoTravel-in/the-editor</link>
 		
 				
 		
@@ -95,7 +95,7 @@
 				
 		
 	  <pubDate>2017-07-27T14:30:00+05:30</pubDate>
-	  <guid>/TechnoTravel-in/the-editor</guid>
+	  <guid>http://localhost:4000/TechnoTravel-in/the-editor</guid>
 	  <description><![CDATA[
 	     <p>Ghost uses a language called <strong>Markdown</strong> to format text.</p>
 <p>When you go to edit a post and see special characters and colours intertwined between the words, those are Markdown shortcuts which tell Ghost what to do with the words in your document. The biggest benefit of Markdown is that you can quickly apply formatting as you type, without needing to pause.</p>
@@ -145,7 +145,7 @@
 
 	<item>
 	  <title>Organising your content with tags</title>
-	  <link>/TechnoTravel-in/using-tags</link>
+	  <link>http://localhost:4000/TechnoTravel-in/using-tags</link>
 		
 				
 		
@@ -166,7 +166,7 @@
 				
 		
 	  <pubDate>2017-07-27T13:30:00+05:30</pubDate>
-	  <guid>/TechnoTravel-in/using-tags</guid>
+	  <guid>http://localhost:4000/TechnoTravel-in/using-tags</guid>
 	  <description><![CDATA[
 	     <p>Ghost has a single, powerful organisational taxonomy, called tags.</p>
 <p>It doesn't matter whether you want to call them categories, tags, boxes, or anything else. You can think of Ghost tags a lot like Gmail labels. By tagging posts with one or more keyword, you can organise articles into buckets of related content.</p>
@@ -201,7 +201,7 @@
 
 	<item>
 	  <title>Managing Ghost users</title>
-	  <link>/TechnoTravel-in/managing-users</link>
+	  <link>http://localhost:4000/TechnoTravel-in/managing-users</link>
 		
 				
 		
@@ -222,7 +222,7 @@
 				
 		
 	  <pubDate>2017-07-27T12:30:00+05:30</pubDate>
-	  <guid>/TechnoTravel-in/managing-users</guid>
+	  <guid>http://localhost:4000/TechnoTravel-in/managing-users</guid>
 	  <description><![CDATA[
 	     <p>Ghost has a number of different user roles for your team</p>
 <h3 id="authors">Authors</h3>
@@ -241,7 +241,7 @@
 
 	<item>
 	  <title>Making your site private</title>
-	  <link>/TechnoTravel-in/private-sites</link>
+	  <link>http://localhost:4000/TechnoTravel-in/private-sites</link>
 		
 				
 		
@@ -262,7 +262,7 @@
 				
 		
 	  <pubDate>2017-07-27T11:30:00+05:30</pubDate>
-	  <guid>/TechnoTravel-in/private-sites</guid>
+	  <guid>http://localhost:4000/TechnoTravel-in/private-sites</guid>
 	  <description><![CDATA[
 	     <p>Sometimes you might want to put your site behind closed doors</p>
 <p>If you've got a publication that you don't want the world to see yet because it's not ready to launch, you can hide your Ghost site behind a simple shared pass-phrase.</p>
@@ -276,7 +276,7 @@
 
 	<item>
 	  <title>Advanced Markdown tips</title>
-	  <link>/TechnoTravel-in/advanced-markdown</link>
+	  <link>http://localhost:4000/TechnoTravel-in/advanced-markdown</link>
 		
 				
 		
@@ -297,7 +297,7 @@
 				
 		
 	  <pubDate>2017-07-27T10:30:00+05:30</pubDate>
-	  <guid>/TechnoTravel-in/advanced-markdown</guid>
+	  <guid>http://localhost:4000/TechnoTravel-in/advanced-markdown</guid>
 	  <description><![CDATA[
 	     <p>There are lots of powerful things you can do with the Ghost editor</p>
 <p>If you've gotten pretty comfortable with <a href="/the-editor/">all the basics</a> of writing in Ghost, then you may enjoy some more advanced tips about the types of things you can do with Markdown!</p>
@@ -348,7 +348,7 @@
 
 	<item>
 	  <title>Setting up your own Ghost theme</title>
-	  <link>/TechnoTravel-in/themes</link>
+	  <link>http://localhost:4000/TechnoTravel-in/themes</link>
 		
 				
 		
@@ -369,7 +369,7 @@
 				
 		
 	  <pubDate>2017-07-27T09:30:00+05:30</pubDate>
-	  <guid>/TechnoTravel-in/themes</guid>
+	  <guid>http://localhost:4000/TechnoTravel-in/themes</guid>
 	  <description><![CDATA[
 	     <p>Creating a totally custom design for your publication</p>
 <p>Ghost comes with a beautiful default theme called Casper, which is designed to be a clean, readable publication layout and can be easily adapted for most purposes. However, Ghost can also be completely themed to suit your needs. Rather than just giving you a few basic settings which act as a poor proxy for code, we just let you write code.</p>
